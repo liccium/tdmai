@@ -1,3 +1,7 @@
+---
+description: DRAFT 2024-02-28
+---
+
 # TDM·AI Protocol
 
 <figure><img src=".gitbook/assets/TDM-AI-LINEAR_B_IDEOGRAM_B104_DEER-1280-640.png" alt=""><figcaption></figcaption></figure>
@@ -45,8 +49,8 @@ Opt-out declaration should (be):&#x20;
 4. Resilient to the manipulation of content,&#x20;
 5. Resilient to the removal of embedded metadata, watermarks and steganographic data from the media file,
 6. Provide verifiable attribution through digital signatures and certificates (creator credentials),
-7. Have a timestamp.
+7. Provide a verifiable timestamp.
 
 ## Compatibility with C2PA
 
-The TDM·AI protocol is a compatible with the C2PA standard, offering a complementary solution in cases embedded Content Credentials have been removed from the media file ("soft-binding").
+The TDM·AI protocol is a compatible with the content credentials of the C2PA standard, offering a complementary solution in cases where content has been modified or manipulated, or embedded metadata have been removed from the media file ("soft-binding").
