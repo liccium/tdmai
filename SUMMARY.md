@@ -2,4 +2,4 @@
 
 * [TDM·AI Protocol](README.md)
 * [Specification](specification.md)
-* [Contact](contact.md)
+* [Contact and Imprint Information](contact-and-imprint-information.md)
