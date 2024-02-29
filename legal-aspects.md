@@ -16,7 +16,7 @@ Regulation on Text and Data Mining (TDM) according to the [DSM Directive on Copy
 
 When we talk about a "machine-readable opt-out," we're referring to a declaration made by the rightsholder that should be understood as a limitation on commercial TDM usage.
 
-### Option 2: Permission
+### Option 2: Opt-out Revocation
 
 On the other hand, a "machine-readable permission" indicates that the rightsholder has made a declaration that should be interpreted as them not actively opting out. While one might argue that a machine-readable permission is redundant because permission is the default assumption, there are scenarios where the rightsholder may have initially expressed a machine-readable restriction but subsequently changed their stance.
 
