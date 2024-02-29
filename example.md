@@ -4,7 +4,7 @@ description: DRAFT 2024-02-28
 
 # Example
 
-## Declaration app
+## Declaration App
 
 For this example the [Liccium.app](https://liccium.app) is used. Feel free to sign-up on [Liccium.com](https://liccium.com) to receive an invite and test the applicaition.
 
@@ -35,7 +35,7 @@ With a public declaration, all metadata of the declaration is compiled in a JSON
 URL to the declaration metadata JSON file
 {% endembed %}
 
-## TDM·AI opt-out
+## TDM·AI Opt-out
 
 The declaration metadata JSON file links to the opt-out declaration.
 

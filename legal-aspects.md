@@ -2,7 +2,7 @@
 description: DRAFT 2024-02-28
 ---
 
-# Legal aspects
+# Legal Aspects
 
 Regulation on Text and Data Mining (TDM) according to the [DSM Directive on Copyright 2019/790](https://eur-lex.europa.eu/eli/dir/2019/790/oj), article 4:
 
@@ -20,7 +20,7 @@ When we talk about a "machine-readable opt-out," we're referring to a declaratio
 
 On the other hand, a "machine-readable permission" indicates that the rightsholder has made a declaration that should be interpreted as them not actively opting out. While one might argue that a machine-readable permission is redundant because permission is the default assumption, there are scenarios where the rightsholder may have initially expressed a machine-readable restriction but subsequently changed their stance.
 
-## Open legal questions
+## Open Legal Questions
 
 Considering that the DSM only mentions machine-readable opt-outs, the question arises as to whether it would be legally sound to potentially incorporate an opt-in mechanism in conjunction with licensing terms. Is it acceptable or even required to integrate this as a distinct, separate declaration under the law?
 

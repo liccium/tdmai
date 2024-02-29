@@ -2,7 +2,7 @@
 description: DRAFT 2024-02-29
 ---
 
-# Benefits of TDM·AI
+# Benefits
 
 TDM·AI utilises the International Standard Content Code (ISCC), an upcoming global ISO standard for digital media content ([ISO 24138](https://www.iso.org/standard/77899.html)) and verifiable Creator Credentials, based on[ W3C recommendation for cryptographically verifiable credentials](https://www.w3.org/TR/vc-data-model-2.0/), to ensure verifiable and machine-readable declarations that include proper attribution of claims.&#x20;
 
@@ -17,7 +17,7 @@ Let's get into the details of the advantages of this solution.&#x20;
 * **Effective When Shared**: ISCC remains effective even when content is taken out of its original context and initial metadata or attribution becomes inaccessible due to content sharing on third-party domains outside the control of the rightsholders, potentially losing creator or rights information in robots.txt files or other metadata.
 * **Robustness against content changes**: ISCC retains its reliability even if content is changed, modified or manipulated.
 
-## Benefits of ISCC declarations
+## Benefits of ISCC Declarations
 
 * **Inseparably Binding Rights and Metadata**: ISCC declarations enable the secure and indissoluble binding of external metadata, rights, or other claims, along with verifiable credentials, to the content, offering substantial advantages to creators and rightsholders.
 * **Machine-Readable Declarations**: ISCC declarations, in conjunction with verifiable credentials, can provide relevant and sufficient information regarding rights, permissions, and restrictions in a machine-readable way.
