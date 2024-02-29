@@ -14,14 +14,14 @@ Let's get into the details of the advantages of this solution.&#x20;
 * **Accessible and Open-Source**: The [ISCC generator service](https://github.com/iscc/iscc-web) is an easy and accessible way to generate ISCC codes. It is open-sourced with a permissive licence, lightweight, dockerised, and effortlessly deployable.&#x20;
 * **Versatility Across Media Types**: ISCC can be used with all media types (text, images, video, audio) and [supports a wide range of file formats](https://github.com/iscc/iscc-sdk/blob/872795b8fdcbb66a7c71dd9b5020589e2c8ad832/iscc\_sdk/mediatype.py#L204).
 * **Resilience Amid Metadata Removal**: ISCC allows robust identification and matching of media assets even in cases where metadata was removed, a common occurrence when content is shared online or via social media.
-* **Out-of-context consistency**: ISCC remains effective even when content is taken out of its original context and initial metadata or attribution becomes inaccessible due to content sharing on third-party domains outside the control of the rightsholder, potentially losing creator or rights information in robots.txt files or other metadata.
+* **Effective When Shared**: ISCC remains effective even when content is taken out of its original context and initial metadata or attribution becomes inaccessible due to content sharing on third-party domains outside the control of the rightsholders, potentially losing creator or rights information in robots.txt files or other metadata.
 * **Robustness against content changes**: ISCC retains its reliability even if content is changed, modified or manipulated.
 
 ## Benefits of ISCC declarations
 
-* **Inseparably binding rights and metadata**: ISCC declarations enable the secure and indissoluble binding of external metadata, rights, or other claims, along with verifiable credentials, to the content, offering substantial advantages to creators and rightsholders.
-* **Machine-readable Declarations**: ISCC declarations, in conjunction with verifiable credentials, can provide relevant and sufficient information regarding rights, permissions, and restrictions in a machine-readable way.
-* **Verifiable, timestamped data**: ISCC declarations are both timestamped and cryptographically verifiable, ensuring the integrity and temporal context of the associated information.
+* **Inseparably Binding Rights and Metadata**: ISCC declarations enable the secure and indissoluble binding of external metadata, rights, or other claims, along with verifiable credentials, to the content, offering substantial advantages to creators and rightsholders.
+* **Machine-Readable Declarations**: ISCC declarations, in conjunction with verifiable credentials, can provide relevant and sufficient information regarding rights, permissions, and restrictions in a machine-readable way.
+* **Verifiable, Timestamped Data**: ISCC declarations are both timestamped and cryptographically verifiable, ensuring the integrity and temporal context of the associated information.
 
 ## Benefits of Creator Credentials
 
