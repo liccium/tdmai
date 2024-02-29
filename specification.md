@@ -18,6 +18,10 @@ A machine-readable declaration by the rightsholder prohibiting use of content fo
 ```
 {% endcode %}
 
+{% embed url="https://olive-labour-unicorn-913.mypinata.cloud/ipfs/QmX8qUyi2iXRT7BEX6D2SSJUqngQBN1hWkA1TFbQ9Zisad" %}
+Example for an opt-out
+{% endembed %}
+
 ## Permission
 
 A machine-readable declaration indicating the rightsholder's consent for TDM for AI, or their change of stance from a previous restriction.
@@ -31,6 +35,10 @@ A machine-readable declaration indicating the rightsholder's consent for TDM for
 }
 ```
 {% endcode %}
+
+{% embed url="https://ipfs.io/ipfs/QmUErAcqS3Y2kiDNbSUdCoFMacgCAzMYrRA6Djg7gmp1yF" %}
+Example for a permission
+{% endembed %}
 
 ## **ISCC Declarations**
 
