@@ -6,11 +6,13 @@ description: DRAFT 2024-02-28
 
 ## Declaration app
 
-in this example [Liccium.app](https://liccium.app) is used.&#x20;
+For this example the [Liccium.app](https://liccium.app) is used. Feel free to sign-up on [Liccium.com](https://liccium.com) to receive an invite and test the applicaition.
 
 <figure><img src=".gitbook/assets/Liccium TDM·AI@2x.png" alt=""><figcaption><p>TDM·AI opt-out using Liccium.app</p></figcaption></figure>
 
-A public declaration will package all declaration metadata in a JSON file, including the TDM·AI opt-out.&#x20;
+## Declaration Metadata JSON File
+
+With a public declaration, all metadata of the declaration is compiled in a JSON file, including the TDM·AI opt-out (see below, lines 2-4). This JSON file is persistently bound to the ISCC code.
 
 {% code title="" overflow="wrap" lineNumbers="true" %}
 ```json
@@ -29,10 +31,14 @@ A public declaration will package all declaration metadata in a JSON file, inclu
 ```
 {% endcode %}
 
-Source: Declaration metadata
-
 {% embed url="https://olive-labour-unicorn-913.mypinata.cloud/ipfs/Qmd8sb5uPEVggGRBvb7TXZmhqqEqJ6MdTCqcUZhh2bNNNN" %}
-URL to the JSON declaration metadata file
+URL to the declaration metadata JSON file
 {% endembed %}
 
-This JSON file is persistently bound to the ISCC code.
+## TDM·AI opt-out JSON file
+
+The declaration metadata JSON file links to the opt-out declaration.
+
+{% embed url="https://olive-labour-unicorn-913.mypinata.cloud/ipfs/QmX8qUyi2iXRT7BEX6D2SSJUqngQBN1hWkA1TFbQ9Zisad" %}
+URL to the opt-out declaration JSON file
+{% endembed %}
