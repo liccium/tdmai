@@ -8,7 +8,7 @@ description: DRAFT 2024-02-28
 
 A machine-readable declaration by the rightsholder prohibiting use of content for AI training.
 
-{% code title="Opt-out Declaration" overflow="wrap" lineNumbers="true" fullWidth="true" %}
+{% code title="Opt-out Declaration" overflow="wrap" lineNumbers="true" fullWidth="false" %}
 ```json
 {
   "TDMAI": false,
