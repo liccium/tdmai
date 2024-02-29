@@ -14,7 +14,7 @@ For this example the [Liccium.app](https://liccium.app) is used. Feel free to si
 
 With a public declaration, all metadata of the declaration is compiled in a JSON file, including the TDM·AI opt-out (see code example below). This JSON file is persistently bound to the ISCC code.
 
-{% code title="" overflow="wrap" lineNumbers="true" %}
+{% code title="" lineNumbers="true" %}
 ```json
     "tdmai": {
       "TDMAI": false,
