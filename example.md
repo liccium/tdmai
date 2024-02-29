@@ -12,22 +12,14 @@ For this example the [Liccium.app](https://liccium.app) is used. Feel free to si
 
 ## Declaration Metadata
 
-With a public declaration, all metadata of the declaration is compiled in a JSON file, including the TDM·AI opt-out (see below, lines 2-4). This JSON file is persistently bound to the ISCC code.
+With a public declaration, all metadata of the declaration is compiled in a JSON file, including the TDM·AI opt-out (see code example below). This JSON file is persistently bound to the ISCC code.
 
 {% code title="" overflow="wrap" lineNumbers="true" %}
 ```json
-"liccium_plugins": {
     "tdmai": {
       "TDMAI": false,
       "TDMAI_policy_URL": "https://olive-labour-unicorn-913.mypinata.cloud/ipfs/QmX8qUyi2iXRT7BEX6D2SSJUqngQBN1hWkA1TFbQ9Zisad"
-    },
-    "iptc": {
-      "digitalsourcetype": "minorHumanEdits",
-      "keywords": "Washinton,1120",
-      "acquireLicensePage": "https://posth.me",
-      "webstatementRights": "https://creativecommons.org/licenses/by-sa/4.0/"
     }
-  }
 ```
 {% endcode %}
 
