@@ -3,7 +3,8 @@
 The TDM·AI protocol has been developed by Liccium B.V. together with Sabine Richly. If you have any questions, please fee free to reach out:
 
 **Sabine Richly**\
-sabine.richly (at) medialaw.digital
+sabine.richly (at) medialaw.digital\
+Homepage: [https://medialaw.digital](https://medialaw.digital)
 
 **Sebastian Posth** \
 sebastian (at) liccium.com\
