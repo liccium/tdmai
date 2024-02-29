@@ -30,14 +30,14 @@ Given the evolving AI landscape, there is an urgent need for an protocol that al
 
 Existing approaches are not effective in cases where:
 
-* The content is modified or manipulated,
-* Embedded metadata is removed from the media file,
-* Watermarks or steganographic data are removed from the content of the media file,
-* Content is shared&#x20;
-  * on websites over which the original rightsholders have no control
-  * on social media
-* False claims are made&#x20;
-* Users do not have access to proprietary software or centralised services to verify content declarations
+1. The content is modified or manipulated,
+2. Embedded metadata is removed from the media file,
+3. Watermarks or steganographic data are removed from the content of the media file,
+4. Content is shared&#x20;
+   * on websites over which the original rightsholders have no control
+   * on social media
+5. False claims are made&#x20;
+6. Users do not have access to proprietary software or centralised services to verify content declarations
 
 ## Requirements For Opt-out Declarations
 
