@@ -4,11 +4,11 @@ description: DRAFT 2024-02-28
 
 # Specification
 
-## Opt-out
+## Opt-out Declaration
 
 A machine-readable declaration by the rightsholder prohibiting use of content for AI training.
 
-{% code title="TDM·AI Opt-out" overflow="wrap" lineNumbers="true" fullWidth="true" %}
+{% code title="Opt-out Declaration" overflow="wrap" lineNumbers="true" fullWidth="true" %}
 ```json
 {
   "TDMAI": false,
@@ -19,14 +19,14 @@ A machine-readable declaration by the rightsholder prohibiting use of content fo
 {% endcode %}
 
 {% embed url="https://olive-labour-unicorn-913.mypinata.cloud/ipfs/QmX8qUyi2iXRT7BEX6D2SSJUqngQBN1hWkA1TFbQ9Zisad" %}
-Example for an opt-out
+Expression of an opt-out declaration
 {% endembed %}
 
-## Permission
+## Opt-out Revocation
 
-A machine-readable declaration indicating the rightsholder's consent for TDM for AI, or their change of stance from a previous restriction.
+A machine-readable statement indicating that the rightsholder has revoked a previously issued opt-out declaration for TDM for AI, thus changed its position on the previous restriction.
 
-{% code title="TDM·AI Permission" overflow="wrap" lineNumbers="true" %}
+{% code title="Opt-out Revocation" overflow="wrap" lineNumbers="true" %}
 ```json
 {
   "TDMAI": true,
@@ -37,7 +37,7 @@ A machine-readable declaration indicating the rightsholder's consent for TDM for
 {% endcode %}
 
 {% embed url="https://ipfs.io/ipfs/QmUErAcqS3Y2kiDNbSUdCoFMacgCAzMYrRA6Djg7gmp1yF" %}
-Example for a permission
+Expression of an opt-out revocation
 {% endembed %}
 
 ## **ISCC Declarations**

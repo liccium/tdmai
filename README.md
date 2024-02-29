@@ -12,7 +12,7 @@ TDM·AI is a protocol to inextricably bind machine-readable opt-out declarations
 
 ## Abstract
 
-The TDM·AI protocol aims to provide rightsholders with a standardised way to make a machine-readable declaration as to whether or not their content may or may not be used for AI training purposes. This permission or opt-out declaration can be derived directly from the content, which means that it is easily accessible for AI providers.
+The TDM·AI protocol aims to provide rightsholders with a standardised way to make a machine-readable declaration as to whether or not their content may or may not be used for AI training purposes. This opt-out declaration or its revocation can be derived directly from the content, which means that it is easily accessible for AI providers.
 
 This protocol utilises the International Standard Content Code (ISCC), an upcoming global ISO standard for digital media content ([ISO 24138](https://www.iso.org/standard/77899.html)) and verifiable Creator Credentials, based on[ W3C recommendation for cryptographically verifiable credentials](https://www.w3.org/TR/vc-data-model-2.0/), to ensure verifiable and machine-readable declarations that include proper attribution of claims. The protocol also supports time-stamping of this statement.
 
