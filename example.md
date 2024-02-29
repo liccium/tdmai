@@ -10,7 +10,7 @@ For this example the [Liccium.app](https://liccium.app) is used. Feel free to si
 
 <figure><img src=".gitbook/assets/Liccium TDM·AI@2x.png" alt=""><figcaption><p>TDM·AI opt-out using Liccium.app</p></figcaption></figure>
 
-## Declaration Metadata JSON File
+## Declaration Metadata
 
 With a public declaration, all metadata of the declaration is compiled in a JSON file, including the TDM·AI opt-out (see below, lines 2-4). This JSON file is persistently bound to the ISCC code.
 
@@ -35,7 +35,7 @@ With a public declaration, all metadata of the declaration is compiled in a JSON
 URL to the declaration metadata JSON file
 {% endembed %}
 
-## TDM·AI opt-out JSON file
+## TDM·AI opt-out
 
 The declaration metadata JSON file links to the opt-out declaration.
 
