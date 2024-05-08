@@ -18,7 +18,7 @@ A machine-readable declaration by the rightsholder prohibiting use of content fo
 ```
 {% endcode %}
 
-{% embed url="https://olive-labour-unicorn-913.mypinata.cloud/ipfs/QmX8qUyi2iXRT7BEX6D2SSJUqngQBN1hWkA1TFbQ9Zisad" %}
+{% embed url="https://olive-labour-unicorn-913.mypinata.cloud/ipfs/QmZvA4z6H4DY1zXLhMmu6ipXKiC4oUDNNDDNkkLhBUu5qr" %}
 Expression of an opt-out declaration
 {% endembed %}
 
@@ -36,7 +36,7 @@ A machine-readable statement indicating that the rightsholder has revoked a prev
 ```
 {% endcode %}
 
-{% embed url="https://ipfs.io/ipfs/QmUErAcqS3Y2kiDNbSUdCoFMacgCAzMYrRA6Djg7gmp1yF" %}
+{% embed url="https://olive-labour-unicorn-913.mypinata.cloud/ipfs/QmP6b4TzyNT5qWaQBbYuVifNU94JQgpN3cQ6Nfkcui3fhp" %}
 Expression of an opt-out revocation
 {% endembed %}
 
