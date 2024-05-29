@@ -8,7 +8,7 @@ description: DRAFT Last updated 2024-05-08
 
 ## Summary
 
-TDM·AI is a protocol to inextricably bind machine-readable opt-out declarations for Text and Data Mining (TDM) to the digital media content. It is based on the DSM Directive on Copyright 2019/790, Article 4, making use of the benefits of the International Standard Content Code ([ISCC](https://iscc.codes)) and [Creator Credentials](https://docs.creatorcredentials.com/).
+TDM·AI is a protocol to inextricably bind machine-readable opt-out declarations for Text and Data Mining (TDM) for the purpose of training models and applications of generative AI to the digital media content. It is based on the DSM Directive on Copyright 2019/790, Article 4, making use of the benefits of the International Standard Content Code ([ISCC](https://iscc.codes)) and [Creator Credentials](https://docs.creatorcredentials.com/).
 
 ## Abstract
 
