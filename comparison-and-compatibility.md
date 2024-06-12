@@ -6,8 +6,4 @@
 
 ## Compatibility&#x20;
 
-### C2PA
-
-The TDM·AI protocol is a compatible with the method to express terms for TDM/AI using content credentials of the C2PA standard. The C2PA method stores information directly within the media file.&#x20;
-
-TDM·AI is a complementary solution in cases where content has been modified or manipulated, or embedded metadata have been removed from the media file ("soft-binding").
+This table tries to provide a neutral overview over existing (not all) methods to opt-out. It depends on the use case which method would work for the individual creator or rightsholder.  The use of the TDM·AI protocol does not exclude the use of other methods. It is compatible with all methods to express terms for TDM for AI.&#x20;

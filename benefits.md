@@ -4,14 +4,14 @@ description: DRAFT 2024-02-29
 
 # Benefits
 
-TDM·AI utilises the International Standard Content Code (ISCC), an upcoming global ISO standard for digital media content ([ISO 24138](https://www.iso.org/standard/77899.html)) and verifiable Creator Credentials, based on[ W3C recommendation for cryptographically verifiable credentials](https://www.w3.org/TR/vc-data-model-2.0/), to ensure verifiable and machine-readable declarations that include proper attribution of claims.&#x20;
+TDM·AI utilises the International Standard Content Code (ISCC), an new ISO standard for digital media content ([ISO 24138:2024)](https://www.iso.org/standard/77899.html) and verifiable Creator Credentials, based on[ W3C recommendation for cryptographically verifiable credentials](https://www.w3.org/TR/vc-data-model-2.0/), to ensure verifiable and machine-readable declarations that include proper attribution of claims.&#x20;
 
 Let's get into the details of the advantages of this solution.&#x20;
 
 ## Benefits of the ISCC
 
-* **Decentralised Identifier**: The ISCC serves as a decentralised identifier for the specific digital media asset, allowing various parties, including users and machines, to generate codes only by having access to the file.
-* **Accessible and Open-Source**: The [ISCC generator service](https://github.com/iscc/iscc-web) is an easy and accessible way to generate ISCC codes. It is open-sourced with a permissive licence, lightweight, dockerised, and effortlessly deployable.&#x20;
+* **Content-derived Identifier**: The ISCC serves as a content-derived identifier for the specific digital media asset, allowing various parties, including users and machines, to generate codes only by having access to the file.
+* **Accessible and Open-Source**: ISCC codes can be generated using open source software or applications such as Liccium. It is open-sourced with a permissive licence, lightweight, dockerised, and effortlessly deployable.&#x20;
 * **Versatility Across Media Types**: ISCC can be used with all media types (text, images, video, audio) and [supports a wide range of file formats](https://github.com/iscc/iscc-sdk/blob/872795b8fdcbb66a7c71dd9b5020589e2c8ad832/iscc\_sdk/mediatype.py#L204).
 * **Resilience Amid Metadata Removal**: ISCC allows robust identification and matching of media assets even in cases where metadata was removed, a common occurrence when content is shared online or via social media.
 * **Effective When Shared**: ISCC remains effective even when content is taken out of its original context and initial metadata or attribution becomes inaccessible due to content sharing on third-party domains outside the control of the rightsholders, potentially losing creator or rights information in robots.txt files or other metadata.
