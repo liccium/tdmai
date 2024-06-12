@@ -18,7 +18,7 @@ A machine-readable declaration by the rightsholder prohibiting use of content fo
 ```
 {% endcode %}
 
-{% embed url="https://b2c-api-main-e5886ec.d2.zuplo.dev/v1/cid/optout" %}
+{% embed url="https://liccium.app/api/v1/cid/optout" %}
 Expression of an opt-out declaration
 {% endembed %}
 
@@ -36,7 +36,7 @@ A machine-readable statement indicating that the rightsholder has revoked a prev
 ```
 {% endcode %}
 
-{% embed url="https://b2c-api-main-e5886ec.d2.zuplo.dev/v1/cid/optin" %}
+{% embed url="https://liccium.app/api/v1/cid/optin" %}
 Expression of an opt-out revocation
 {% endembed %}
 

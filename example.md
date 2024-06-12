@@ -31,6 +31,6 @@ URL to the declaration metadata JSON file
 
 The declaration metadata JSON file links to the opt-out declaration.
 
-{% embed url="https://b2c-api-main-e5886ec.d2.zuplo.dev/v1/cid/optout" %}
+{% embed url="https://liccium.app/api/v1/cid/optout" %}
 URL to the opt-out declaration JSON file
 {% endembed %}
