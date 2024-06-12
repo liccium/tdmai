@@ -18,14 +18,10 @@ Implementing a binding default opt-in system, where AI providers using TDM must 
 
 ### Option 1: Opt-out Declaration
 
-When we talk about a "machine-readable opt-out," we're referring to an express reservation made by the rightsholder that reproductions and extractions of lawfully accessible works and other subject matter for the purposes of TDM are not permitted. Opt-out is not possible for uses for scientific research purposes.
+When we speak of a "machine-readable opt-out", we mean an explicit reservation by the rightsholder that reproductions and extractions of lawfully accessible works and other protected subject matter are not permitted for the purposes of TDM for the purpose of training models and applications of generative AI. An opt-out is not possible for use for scientific research purposes.
 
 ### Option 2: Opt-out Revocation
 
-On the other hand, an “opt-out Revocation” indicates that the rightsholder has made a declaration that should be interpreted in a way that no opt-out applies (any more). While one might argue that such a declaration is redundant because permission is the default assumption, there are scenarios where the rightsholder may have initially expressed a machine-readable reservation but subsequently changed their stance.
-
-## Open Legal Questions
-
-Considering that the DSM only mentions machine-readable opt-outs, the question arises as to whether it would be legally sound to potentially incorporate an opt-in mechanism in conjunction with licensing terms. Is it acceptable or even required to integrate this as a distinct, separate declaration under the law?
+On the other hand, an “opt-out Revocation” indicates that the rightsholder has made a declaration that should be interpreted in a way that no opt-out applies (anymore). While one might argue that such a declaration is redundant because permission is the default assumption, there are scenarios where the rightsholder may have initially expressed a machine-readable reservation but subsequently changed their stance.
 
 \
