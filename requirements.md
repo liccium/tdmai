@@ -6,7 +6,7 @@ description: DRAFT 2024-02-29
 
 ## Issues With Current Approaches
 
-Existing approaches are not effective in cases where:
+Existing approaches are not always effective in cases where:
 
 1. The content is modified or manipulated,
 2. Embedded metadata is removed from the media file,

@@ -18,7 +18,7 @@ A machine-readable declaration by the rightsholder prohibiting use of content fo
 ```
 {% endcode %}
 
-{% embed url="https://olive-labour-unicorn-913.mypinata.cloud/ipfs/QmZvA4z6H4DY1zXLhMmu6ipXKiC4oUDNNDDNkkLhBUu5qr" %}
+{% embed url="https://b2c-api-main-e5886ec.d2.zuplo.dev/v1/cid/optout" %}
 Expression of an opt-out declaration
 {% endembed %}
 
@@ -36,19 +36,19 @@ A machine-readable statement indicating that the rightsholder has revoked a prev
 ```
 {% endcode %}
 
-{% embed url="https://olive-labour-unicorn-913.mypinata.cloud/ipfs/QmP6b4TzyNT5qWaQBbYuVifNU94JQgpN3cQ6Nfkcui3fhp" %}
+{% embed url="https://b2c-api-main-e5886ec.d2.zuplo.dev/v1/cid/optin" %}
 Expression of an opt-out revocation
 {% endembed %}
 
 ## **ISCC Declarations**
 
-Creators and rightsholders can generate ISCC codes from their content. It is suggested to publicly declare the codes on open and verifiable content registries.&#x20;
+Creators and rightsholders can generate ISCC codes from their content. It is proposed that the codes be publicly declared in open and verifiable content registers.
 
 With this declaration, they can persistently and inextricably bind product information, rights and licenses, provenance and other metadata or claims to the unique identifier of the media asset – and ‘persistently’ means: the data cannot be removed!&#x20;
 
 But how does this work? Instead of embedding information, watermarks and steganographic data in the file itself, the selected metadata is externalized, i.e. hashed, published and bound as a sidecar file to an ISCC code of the file derived from the content.
 
-Once declared, federated, verifiable content registries can serve as platforms to discover ISCC codes and resolve associated declaration metadata. Through these registries, creators and rightsholders can publicly disclose their intellectual property rights and content metadata, ensuring that this information is accessible and verifiable.
+Once declared, federated and verifiable content registries can serve as platforms to discover ISCC codes and resolve associated declaration metadata. Through these registries, creators and rightsholders can publicly disclose their intellectual property rights and content metadata, ensuring that this information is accessible and verifiable.
 
 ## **Creator Credentials**
 
