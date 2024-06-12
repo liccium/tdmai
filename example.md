@@ -23,7 +23,7 @@ With a public declaration, all metadata of the declaration is compiled in a JSON
 ```
 {% endcode %}
 
-{% embed url="https://olive-labour-unicorn-913.mypinata.cloud/ipfs/Qmd8sb5uPEVggGRBvb7TXZmhqqEqJ6MdTCqcUZhh2bNNNN" %}
+{% embed url="https://b2c-api-main-e5886ec.d2.zuplo.dev/v1/cid/dj7Wifs12k34TDAnred7RTcEjmU8FY9m8E86DL5ZYgtktyjh" %}
 URL to the declaration metadata JSON file
 {% endembed %}
 
@@ -31,6 +31,6 @@ URL to the declaration metadata JSON file
 
 The declaration metadata JSON file links to the opt-out declaration.
 
-{% embed url="https://olive-labour-unicorn-913.mypinata.cloud/ipfs/QmX8qUyi2iXRT7BEX6D2SSJUqngQBN1hWkA1TFbQ9Zisad" %}
+{% embed url="https://b2c-api-main-e5886ec.d2.zuplo.dev/v1/cid/optout" %}
 URL to the opt-out declaration JSON file
 {% endembed %}
