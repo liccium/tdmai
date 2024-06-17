@@ -13,7 +13,7 @@ A machine-readable declaration by the rightsholder prohibiting use of content fo
 {
   "TDMAI": false,
   "TDMAI_summary": "Content must not be used for AI training purposes.",
-  "TDMAI_policy": "Automated analysis of the work to extract information from it, especially about patterns, trends and correlations for the purpose of training models and applications of generative AI, is reserved - Text and Data Mining for other than scientific research purposes or for temporary acts of reproduction provided for in Article 5(1) of Directive 2001/29/EC is not permitted."
+  "TDMAI_policy": "Automated analysis of the work to extract information from it, especially about patterns, trends and correlations for the purpose of training models and applications of generative AI, is reserved."
 }
 ```
 {% endcode %}
@@ -31,7 +31,7 @@ A machine-readable statement indicating that the rightsholder has revoked a prev
 {
   "TDMAI": true,
   "TDMAI_summary": "Content may be used for AI training purposes.",
-  "TDMAI_policy": "A reservation against the automated analysis of the work in order to extract information from it, in particular about patterns, trends and correlations for the purpose of training models and applications of generative AI, is not declared - Text and Data Mining is also permitted for other than scientific research purposes or for temporary acts of reproduction provided for in Article 5(1) of Directive 2001/29/EC."
+  "TDMAI_policy": "A reservation against the automated analysis of the work in order to extract information from it, in particular about patterns, trends and correlations for the purpose of training models and applications of generative AI, is not declared."
 }
 ```
 {% endcode %}
