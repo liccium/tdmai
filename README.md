@@ -1,5 +1,5 @@
 ---
-description: DRAFT FOR DISCUSSION Last updated 2024-06-12
+description: THIS IS A TEMPORARY DRAFT FOR DISCUSSION Last updated 2024-06-17
 ---
 
 # TDM·AI Protocol
