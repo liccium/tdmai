@@ -13,7 +13,7 @@ A machine-readable declaration by the rightsholder prohibiting use of content fo
 {
   "TDMAI": false,
   "TDMAI_summary": "Content must not be used for AI training purposes.",
-  "TDMAI_policy": "Automated analysis of the work to extract information from it, especially about patterns, trends and correlations for the purpose of training models and applications of generative AI, is reserved."
+  "TDMAI_policy": "Automated analysis of the work to extract information from it, especially about patterns, trends, and correlations for the purpose of training models and applications of generative AI, is reserved. Text and Data Mining (TDM) is permitted for general purpose AI systems that do not generate synthetic audio, image, video, or text content and for scientific research purposes or for temporary acts of reproduction as provided for in Article 5(1) of Directive 2001/29/EC."
 }
 ```
 {% endcode %}
