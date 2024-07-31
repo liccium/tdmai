@@ -6,7 +6,7 @@ description: THIS IS A TEMPORARY DRAFT FOR DISCUSSION Last updated 2024-06-17
 
 ## Opt-out Declaration
 
-A machine-readable declaration by the rightsholder prohibiting use of content for AI training.
+A machine-readable declaration by the rightsholder prohibiting use of content for training models and applications of generative AI.
 
 {% code title="Opt-out Declaration" overflow="wrap" lineNumbers="true" fullWidth="false" %}
 ```json
