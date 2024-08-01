@@ -44,7 +44,7 @@ Practical Steps – US rightsholders should:
 
 In summary, while the EU Copyright Directive's opt-out provision is not directly applicable to US rightsholders, it can indirectly apply if an AI model or the AI application is marketed within the EU. Implementing a machine-readable opt-out, using the ISCC as an identifier that can help to point to rights and opt-out reservations, can provide an effective and enforceable instrument to US rightsholders to manage their content's use.
 
-Sources:&#x20;
+### Sources
 
 Peukert, Copyright in the Artificial Intelligence Act – A Primer; GRUR Int. 2024, p. 497; Rendas/Hartmann; From Brussels to Brasília: How the EU AI Act Could Inspire Brazil’s Generative AI Copyright Policy; GRUR Int. 2024, p. 495.
 
