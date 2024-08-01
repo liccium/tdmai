@@ -6,7 +6,7 @@ description: THIS IS A TEMPORARY DRAFT FOR DISCUSSION Last updated 2024-06-17
 
 ## Opt-out Declaration
 
-A machine-readable declaration by the rightsholder prohibiting use of content for training models and applications of generative AI.
+Example of a machine-readable declaration by the rightsholder prohibiting use of content for training models and applications of generative AI.
 
 {% code title="Opt-out Declaration" overflow="wrap" lineNumbers="true" fullWidth="false" %}
 ```json
@@ -23,9 +23,11 @@ A machine-readable declaration by the rightsholder prohibiting use of content fo
 Expression of an opt-out declaration
 {% endembed %}
 
+When we speak of a "machine-readable opt-out", we mean an explicit reservation by the rightsholder that reproductions and extractions of lawfully accessible works and other protected subject matter are not permitted for the purposes of TDM for the purpose of training models and applications of generative AI. An opt-out is not possible for use for scientific research purposes.
+
 ## Opt-out Revocation
 
-A machine-readable statement indicating that the rightsholder has revoked a previously issued opt-out declaration for TDM for AI, thus changed its position on the previous restriction.
+Example of a machine-readable statement indicating that the rightsholder has revoked a previously issued opt-out declaration for TDM for AI, thus changed its position on the previous restriction.
 
 {% code title="Opt-out Revocation" overflow="wrap" lineNumbers="true" %}
 ```json
@@ -41,6 +43,8 @@ A machine-readable statement indicating that the rightsholder has revoked a prev
 {% embed url="https://liccium.app/api/v1/cid/optin" %}
 Expression of an opt-out revocation
 {% endembed %}
+
+An “opt-out Revocation” indicates that the rightsholder has made a declaration that should be interpreted in a way that no opt-out applies (anymore). While one might argue that such a declaration is redundant because permission is the default assumption, there are scenarios where the rightsholder may have initially expressed a machine-readable reservation but subsequently changed their stance.
 
 ## **ISCC Declarations**
 

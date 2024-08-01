@@ -6,22 +6,26 @@ description: THIS IS A TEMPORARY DRAFT FOR DISCUSSION Last updated 2024-06-17
 
 TDM·AI utilises the International Standard Content Code (ISCC), an new ISO standard for digital media content ([ISO 24138:2024)](https://www.iso.org/standard/77899.html) and verifiable Creator Credentials, based on[ W3C recommendation for cryptographically verifiable credentials](https://www.w3.org/TR/vc-data-model-2.0/), to ensure verifiable and machine-readable declarations that include proper attribution of claims.&#x20;
 
+The ISCC is an open system for the content-derived identification of digital media content of all media types and formats (text, image, audio, video).  ISCC is a sister standard to ISBN, DOI, ISRC, ISWC.
+
+After five years of committee work at ISO/TC 46/SC 9, experts from 29 countries and various media sectors approved the standard. ISO published the ISCC as a global standard for digital content identification on the 15th of May 2024.
+
 Let's get into the details of the advantages of this solution.&#x20;
 
 ## Benefits of the ISCC
 
-* **Content-derived Identifier**: The ISCC serves as a content-derived identifier for the specific digital media asset, allowing various parties, including users and machines, to generate codes only by having access to the file.
-* **Accessible and Open-Source**: ISCC codes can be generated using open source software or applications such as Liccium. It is open-sourced with a permissive licence, lightweight, dockerised, and effortlessly deployable.&#x20;
-* **Versatility Across Media Types**: ISCC can be used with all media types (text, images, video, audio) and [supports a wide range of file formats](https://github.com/iscc/iscc-sdk/blob/872795b8fdcbb66a7c71dd9b5020589e2c8ad832/iscc\_sdk/mediatype.py#L204).
-* **Resilience Amid Metadata Removal**: ISCC allows robust identification and matching of media assets even in cases where metadata was removed, a common occurrence when content is shared online or via social media.
-* **Effective When Shared**: ISCC remains effective even when content is taken out of its original context and initial metadata or attribution becomes inaccessible due to content sharing on third-party domains outside the control of the rightsholders, potentially losing creator or rights information in robots.txt files or other metadata.
-* **Robustness against content changes**: ISCC retains its reliability even if content is changed, modified or manipulated.
+* Content-derived Identifier – The ISCC serves as a content-derived identifier for the specific digital media asset, allowing various parties, including users and machines, to independently generate codes only by having access to the file itself without the need of a previous registration or application process.
+* Accessible and Open-Source – ISCC codes can be generated using open source software or applications such as Liccium. It is open-sourced with a permissive licence, lightweight, dockerised, and effortlessly deployable.&#x20;
+* Versatility Across Media Types – ISCC can be used with all media types (text, images, video, audio) and supports a wide range of file formats.
+* Resilience Amid Metadata Removal – ISCC allows robust identification and matching of media assets even in cases where metadata was removed, a common occurrence when content is shared online or via social media.
+* Effective When Content is Shared – ISCC remains effective even when content is taken out of its original context and embedded metadata or attribution becomes inaccessible due to content sharing on third-party domains outside the control of the rightsholders, potentially losing creator or rights information in robots.txt files or other metadata.
+* Robustness against content changes – ISCC is a content-derived identifier with matching capabilities for near-duplicate content, which means that it retains its reliability even if content is changed, modified or manipulated up to a certain degree.
 
 ## Benefits of ISCC Declarations
 
-* **Inseparably Binding Rights and Metadata**: ISCC declarations enable the secure and indissoluble binding of external metadata, rights, or other claims, along with verifiable credentials, to the content, offering substantial advantages to creators and rightsholders.
-* **Machine-Readable Declarations**: ISCC declarations, in conjunction with verifiable credentials, can provide relevant and sufficient information regarding rights and restrictions in a machine-readable way.
-* **Verifiable, Timestamped Data**: ISCC declarations are both timestamped and cryptographically verifiable, ensuring the integrity and temporal context of the associated information.
+* Inseparably Binding Rights and Metadata – ISCC declarations enable the secure and indissoluble binding of external metadata, rights, or other claims, along with verifiable credentials, to the content, offering substantial advantages to creators and rightsholders.
+* Machine-Readable Declarations – ISCC declarations, in conjunction with verifiable credentials, can provide relevant and sufficient information regarding rights and restrictions in a machine-readable way.
+* Verifiable, Timestamped Data – ISCC declarations are both timestamped and cryptographically verifiable, ensuring the integrity and temporal context of the associated information.
 
 ## Benefits of Creator Credentials
 
