@@ -44,18 +44,14 @@ Expression of an opt-out revocation
 
 ## **ISCC Declarations**
 
-Creators and rightsholders can generate ISCC codes from their content. It is proposed that the codes be publicly declared in open and verifiable content registers.
+The TDM·AI protocol suggests soft-binding rightsholder preferences to the content-derived identifier. Creators and rightsholders can generate ISCC codes from their content. It is proposed that the codes be publicly declared in open, centralised or federated, verifiable metadata directories. These directories persistently bind the rightsholder preferences to the unique identifier of the media asset (ISCC Codes) – and ‘persistently’ means: the data cannot be removed.&#x20;
 
-With this declaration, they can persistently and inextricably bind product information, rights and licenses, provenance and other metadata or claims to the unique identifier of the media asset – and ‘persistently’ means: the data cannot be removed!&#x20;
-
-But how does this work? Instead of embedding information, watermarks and steganographic data in the file itself, the selected metadata is externalized, i.e. hashed, published and bound as a sidecar file to an ISCC code of the file derived from the content.
-
-Once declared, federated and verifiable content registries can serve as platforms to discover ISCC codes and resolve associated declaration metadata. Through these registries, creators and rightsholders can publicly disclose their intellectual property rights and content metadata, ensuring that this information is accessible and verifiable.
+Instead of embedding metadata in the file itself, the data is externalised, i.e. hashed, published and connected as a sidecar file to content-derived ISCC code. Once declared, centralised or federated, verifiable content registries can serve as platforms to discover ISCC codes and resolve associated rightsholder preferences and metadata.&#x20;
 
 ## **Creator Credentials**
 
-Since anyone can make a public declaration, it is important to ensure proper authentication of the source of each declaration. To further increase their trustworthiness, it is suggested that declaration metadata will include publicly accessible and verifiable creator credentials, which are based on the W3C standards for Verifiable Credentials, supported by advanced and qualified certificates that properly identify creators and rightsholders. Creator credentials serve as a means for attribution and authentication of creators and rightsholders based on social or institutional authentication, thereby trust in claims and attribution.
+Since anyone can make a public declaration, it is important to ensure proper authentication of the source of each declaration. To increase trustworthiness, it is suggested that declaration metadata will include publicly accessible verifiable credentials (VCs), which are based on the W3C standards for Verifiable Credentials, supported by advanced and qualified certificates that properly identify creators and rightsholders. These "Creator Credentials" serve as a means for attribution and authentication of creators and rightsholders based on social or institutional authentication, thereby increasing trust in claims and attribution.
 
 ## **Timestamp**
 
-Every declaration to a content registry will contain a verifiable timestamp to provide clear information about when the claim was published.
+Every declaration to a content directory will contain a verifiable timestamp to provide clear information about when the claim was published.
