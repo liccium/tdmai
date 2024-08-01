@@ -45,17 +45,3 @@ Expression of an opt-out revocation
 {% endembed %}
 
 An “opt-out Revocation” indicates that the rightsholder has made a declaration that should be interpreted in a way that no opt-out applies (anymore). While one might argue that such a declaration is redundant because permission is the default assumption, there are scenarios where the rightsholder may have initially expressed a machine-readable reservation but subsequently changed their stance.
-
-## **ISCC Declarations**
-
-The TDM·AI protocol suggests soft-binding rightsholder preferences to the content-derived identifier. Creators and rightsholders can generate ISCC codes from their content. It is proposed that the codes be publicly declared in open, centralised or federated, verifiable metadata directories. These directories persistently bind the rightsholder preferences to the unique identifier of the media asset (ISCC Codes) – and ‘persistently’ means: the data cannot be removed.&#x20;
-
-Instead of embedding metadata in the file itself, the data is externalised, i.e. hashed, published and connected as a sidecar file to content-derived ISCC code. Once declared, centralised or federated, verifiable content registries can serve as platforms to discover ISCC codes and resolve associated rightsholder preferences and metadata.&#x20;
-
-## **Creator Credentials**
-
-Since anyone can make a public declaration, it is important to ensure proper authentication of the source of each declaration. To increase trustworthiness, it is suggested that declaration metadata will include publicly accessible verifiable credentials (VCs), which are based on the W3C standards for Verifiable Credentials, supported by advanced and qualified certificates that properly identify creators and rightsholders. These "Creator Credentials" serve as a means for attribution and authentication of creators and rightsholders based on social or institutional authentication, thereby increasing trust in claims and attribution.
-
-## **Timestamp**
-
-Every declaration to a content directory will contain a verifiable timestamp to provide clear information about when the claim was published.
