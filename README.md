@@ -20,3 +20,7 @@ The TDM·AI protocol is motivated by the need to:
 
 * Provide a clear and simple way for rightsholders to declare their rightsholder preferences with regards to training models of generative AI;
 * Ensure that AI providers and other stakeholders can easily read, understand and respect rightsholder preferences by machine technology.
+
+## Overview
+
+<figure><img src=".gitbook/assets/AI-Opt-Out-Node-Liccium-Overview-2024.png" alt=""><figcaption><p>Overview TDM·AI</p></figcaption></figure>
