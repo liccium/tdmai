@@ -12,7 +12,7 @@ The DSM Directive distinguishes between TDM for scientific purposes and for othe
 
 Article 4 (3) further elaborates that "the exception or limitation provided for in paragraph shall apply on condition that the use of works and other subject matter referred to in that paragraph has not been expressly reserved by their rightholders in an appropriate manner, such as machine-readable means in the case of content made publicly available online."&#x20;
 
-### International Applicability of the DSM
+## International Applicability of the Relevant
 
 The AI Act and the obligation to respect TDM opt-out raise complex questions about their territorial application. If an AI provider in the US trains an AI model, using servers and content available in the US, it is questionable whether this provider must respect TDM opt-out declarations. The AI Act assumes that the provider must respect the declaration at least when marketing these models in the EU or in the EEA.
 
