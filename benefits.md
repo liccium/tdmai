@@ -1,7 +1,3 @@
----
-description: THIS IS A TEMPORARY DRAFT FOR DISCUSSION Last updated 2024-06-17
----
-
 # Benefits
 
 TDM·AI utilises the International Standard Content Code (ISCC), an new ISO standard for digital media content ([ISO 24138:2024)](https://www.iso.org/standard/77899.html) and verifiable Creator Credentials, based on[ W3C recommendation for cryptographically verifiable credentials](https://www.w3.org/TR/vc-data-model-2.0/), to ensure verifiable and machine-readable declarations that include proper attribution of claims.&#x20;

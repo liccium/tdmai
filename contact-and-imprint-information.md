@@ -1,7 +1,3 @@
----
-description: THIS IS A TEMPORARY DRAFT FOR DISCUSSION Last updated 2024-06-17
----
-
 # Contact and Imprint Information
 
 The TDM·AI protocol has been developed by Liccium B.V. together with Sabine Richly. If you have any questions, please fee free to reach out:
