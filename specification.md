@@ -9,7 +9,7 @@ Example of a machine-readable declaration by the rightsholder prohibiting use of
 {
   "iscc": "ISCC:KEC7VSV5QH7FTV7N5YVD5UMF4TUKFFGDGCOI4UDFKE4FNPW6C3L7J2Y",
   "TDMAI": false,
-  "TDMAI_summary": "Content must not be used for AI training purposes.",
+  "TDMAI_summary": "Content must not be used for training generative AI.",
   "TDMAI_policy": "Automated analysis of the work to extract information from it, especially about patterns, trends, and correlations for the purpose of training models and applications of generative AI, is reserved. Text and Data Mining (TDM) is permitted for general purpose AI systems that do not generate synthetic audio, image, video, or text content and for scientific research purposes or for temporary acts of reproduction as provided for in Article 5(1) of Directive 2001/29/EC."
 }
 ```
@@ -30,7 +30,7 @@ Example of a machine-readable statement indicating that the rightsholder has rev
 {
   "iscc": "ISCC:KEC7VSV5QH7FTV7N5YVD5UMF4TUKFFGDGCOI4UDFKE4FNPW6C3L7J2Y",
   "TDMAI": true,
-  "TDMAI_summary": "Content may be used for AI training purposes.",
+  "TDMAI_summary": "Content may be used for training generative AI.",
   "TDMAI_policy": "A reservation against the automated analysis of the work in order to extract information from it, in particular about patterns, trends and correlations for the purpose of training models and applications of generative AI, is not declared."
 }
 ```
