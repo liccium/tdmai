@@ -42,9 +42,11 @@ Since anyone can make a public declaration, it is important to ensure proper aut
 
 All declarations are digitally signed and provided with verifiable timestamps to ensure their accuracy, validity and transparency as to when exactly the opt-out declaration was published – an aspect often overlooked in the current discussion about opt-out declarations.
 
-## Comparison
+## Comparison of Opt-Out Protocols
 
-<figure><img src=".gitbook/assets/Comparison-opt-out.png" alt=""><figcaption><p>Comparison opt-out declaration protocols</p></figcaption></figure>
+
+
+<figure><img src=".gitbook/assets/Comparison@2x.png" alt=""><figcaption></figcaption></figure>
 
 ## Compatibility&#x20;
 
