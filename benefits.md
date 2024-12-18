@@ -10,22 +10,24 @@ Let's get into the details of the advantages of this solution.&#x20;
 
 ## Benefits of the ISCC
 
-* Content-derived Identifier – The ISCC serves as a content-derived identifier for the specific digital media asset, allowing various parties, including users and machines, to independently generate codes only by having access to the file itself without the need of a previous registration or application process.
-* Accessible and Open-Source – ISCC codes can be generated using open source software or applications such as Liccium. It is open-sourced with a permissive licence, lightweight, dockerised, and effortlessly deployable.&#x20;
-* Versatility Across Media Types – ISCC can be used with all media types (text, images, video, audio) and supports a wide range of file formats.
-* Resilience Amid Metadata Removal – ISCC allows robust identification and matching of media assets even in cases where metadata was removed, a common occurrence when content is shared online or via social media.
-* Effective When Content is Shared – ISCC remains effective even when content is taken out of its original context and embedded metadata or attribution becomes inaccessible due to content sharing on third-party domains outside the control of the rightsholders, potentially losing creator or rights information in robots.txt files or other metadata.
-* Robustness against content changes – ISCC is a content-derived identifier with matching capabilities for near-duplicate content, which means that it retains its reliability even if content is changed, modified or manipulated up to a certain degree.
+* **Content-derived Identifier** – The ISCC serves as a content-derived identifier for the specific digital media asset, allowing various parties, including users and machines, to independently generate codes only by having access to the file itself without the need of a previous registration or application process.
+* **Accessible and Open-Source** – ISCC codes can be generated using open source software or applications such as Liccium. It is open-sourced with a permissive licence, lightweight, dockerised, and effortlessly deployable.&#x20;
+* **Versatility Across Media Types** – ISCC can be used with all media types (text, images, video, audio) and supports a wide range of file formats.
+* **Resilience Amid Metadata Removal** – ISCC allows robust identification and matching of media assets even in cases where metadata was removed, a common occurrence when content is shared online or via social media.
+* **Effective When Content is Shared** – ISCC remains effective even when content is taken out of its original context and embedded metadata or attribution becomes inaccessible due to content sharing on third-party domains outside the control of the rightsholders, potentially losing creator or rights information in robots.txt files or other metadata.
+* **Robustness against content changes** – ISCC is a content-derived identifier with matching capabilities for near-duplicate content, which means that it retains its reliability even if content is changed, modified or manipulated up to a certain degree.
 
 ## Benefits of ISCC Declarations
 
-* Inseparably Binding Rights and Metadata – ISCC declarations enable the secure and indissoluble binding of external metadata, rights, or other claims, along with verifiable credentials, to the content, offering substantial advantages to creators and rightsholders.
-* Machine-Readable Declarations – ISCC declarations, in conjunction with verifiable credentials, can provide relevant and sufficient information regarding rights and restrictions in a machine-readable way.
-* Verifiable, Timestamped Data – ISCC declarations are both timestamped and cryptographically verifiable, ensuring the integrity and temporal context of the associated information.
+Liccium gives creators and rightsholders an intuitive platform to digitally sign and protect their original works, building trust in ownership, attribution and authenticity of digital media content. Using Liccium creators can make declarations of ISCC codes, providing access to rights and metadata:
+
+* **Inseparably Binding Rights and Metadata** – ISCC declarations enable the secure and indissoluble binding of external metadata, rights, or other claims, along with verifiable credentials, to the content, offering substantial advantages to creators and rightsholders.
+* **Machine-Readable Declarations** – ISCC declarations, in conjunction with verifiable credentials, can provide relevant and sufficient information regarding rights and restrictions in a machine-readable way.
+* **Verifiable, Timestamped Data** – ISCC declarations are both timestamped and cryptographically verifiable, ensuring the integrity and temporal context of the associated information.
 
 ## Benefits of Creator Credentials
 
-The Creator Credentials project will develop a user-centric digital identity management framework that is specifically designed to serve the unique needs of the cultural and creative industries.&#x20;
+The Creator Credentials project has developed a user-centric digital identity management framework that is specifically designed to serve the unique needs of the cultural and creative industries.&#x20;
 
 {% embed url="https://docs.creatorcredentials.com/" %}
 Documentation of the Creator Credentials project

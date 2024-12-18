@@ -1,5 +1,21 @@
 # Specification
 
+## Vocabulary
+
+The following specification is a draft. It will be most likely enhanced by using a slightly more enhanced vocabulary that will distinguish between the following options:&#x20;
+
+### 1) Opt-Out of TDM&#x20;
+
+Opting out of all TDM activities (except for for the purposes of scientific research)
+
+### 2) Opt-out of TDM for AI Training Purposes&#x20;
+
+Opting out of TDM in the context of applications or use cases where AI technologies are applied
+
+### 3) Opt-out of TDM for generative AI Training Purposes&#x20;
+
+Opting out of TDM in the context of models and applications of generative AI or use within applications that include generative AI (Initial focus of TDM·AI)
+
 ## Opt-out Declaration
 
 Example of a machine-readable declaration by the rightsholder prohibiting use of content for training models and applications of generative AI.
