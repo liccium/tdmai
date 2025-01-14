@@ -1,3 +1,7 @@
+---
+description: DRAFT 2025-01-14
+---
+
 # Specification
 
 ## Vocabulary
