@@ -2,23 +2,25 @@
 
 ## Vocabulary
 
+Before a rights reservation can be expressed, it is necessary to define from what activity content should be excluded.
+
 The following specification is a draft. It will be most likely enhanced by using a slightly more enhanced vocabulary that will distinguish between the following options:&#x20;
 
-### 1) Opt-Out of TDM&#x20;
+### 1) TDM&#x20;
 
-Opting out of all TDM activities (except for for the purposes of scientific research)
+The act of using assets in the context of any automated analytical technique aimed at analyzing text and data in digital form in order to generate information which includes but is not limited to patterns, trends and correlations.
 
-### 2) Opt-out of TDM for AI Training Purposes&#x20;
+### 2) TDM for AI Training Purposes&#x20;
 
-Opting out of TDM in the context of applications or use cases where AI technologies are applied
+The act of training general-purpose AI models, or other types of AI models that are capable of performing a wide range of possible tasks. Such tasks include, without limitation, labeling or classifying content, semantically understanding content, recognising patterns, making decisions.
 
-### 3) Opt-out of TDM for generative AI Training Purposes&#x20;
+### 3) TDM for generative AI Training Purposes&#x20;
 
-Opting out of TDM in the context of models and applications of generative AI or use within applications that include generative AI (Initial focus of TDM·AI)
+The act of training general-purpose AI models, improving their capacity to generate text, images or other forms of synthetic content, or training other types of AI models that have the purpose of generating text, images or other forms of synthetic content.
 
 ## Opt-out Declaration
 
-Example of a machine-readable declaration by the rightsholder prohibiting use of content for training models and applications of generative AI.
+This is an example of a machine-readable declaration by the rightsholder prohibiting the use of content for training models and applications of generative AI (see 3) TDM for generative AI Training Purposes).
 
 {% code title="Opt-out Declaration" overflow="wrap" lineNumbers="true" fullWidth="false" %}
 ```json
