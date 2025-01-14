@@ -23,4 +23,4 @@ The TDM·AI protocol is motivated by the need to:
 
 ## Overview
 
-<figure><img src=".gitbook/assets/Liccium-Overview-AI.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Liccium-Overview-AI.png" alt=""><figcaption><p>Overview</p></figcaption></figure>
