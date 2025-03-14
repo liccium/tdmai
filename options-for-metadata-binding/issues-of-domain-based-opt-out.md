@@ -1,4 +1,18 @@
-# Issues of Domain-Based Approaches
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
+# Issues of Domain-Based Opt-out
 
 ## Robots.txt
 

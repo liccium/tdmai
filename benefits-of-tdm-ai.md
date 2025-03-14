@@ -16,9 +16,9 @@ layout:
 
 TDM·AI utilises the International Standard Content Code (ISCC), an new ISO standard for digital media content ([ISO 24138:2024)](https://www.iso.org/standard/77899.html) and verifiable Creator Credentials, based on[ W3C recommendation for cryptographically verifiable credentials](https://www.w3.org/TR/vc-data-model-2.0/), to ensure verifiable and machine-readable declarations that include proper attribution of claims.&#x20;
 
-The ISCC is an open system for the content-derived identification of digital media content of all media types and formats (text, image, audio, video).  ISCC is a sister standard to ISBN, DOI, ISRC, ISWC.
+The ISCC is an open system for the content-derived identification of digital media content of all media types and formats (text, image, audio, video). In 2024, ISO published the ISCC as a global standard for digital content identification.
 
-After five years of committee work at ISO/TC 46/SC 9, experts from 29 countries and various media sectors approved the standard. ISO published the ISCC as a global standard for digital content identification on the 15th of May 2024.
+{% embed url="https://www.iso.org/standard/77899.html" %}
 
 Let's get into the details of the advantages of this solution.&#x20;
 

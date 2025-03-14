@@ -1,8 +1,19 @@
 ---
 description: DRAFT 2025-01-14
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
-# Specification
+# Technical Specification
 
 ## Vocabulary
 
