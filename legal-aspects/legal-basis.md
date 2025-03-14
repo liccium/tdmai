@@ -1,4 +1,18 @@
-# Legal Aspects
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
+# Legal Basis
 
 ### The EU Copyright Directive
 

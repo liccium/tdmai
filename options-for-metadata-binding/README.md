@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Options for Metadata Binding
 
 When it comes to managing opt-out declarations for TDM in a machine-readable way, in principle, two different approaches are discussed:&#x20;

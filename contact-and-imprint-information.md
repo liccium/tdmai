@@ -8,7 +8,7 @@ Homepage: [https://medialaw.digital](https://medialaw.digital)
 
 **Sebastian Posth** \
 sebastian (at) liccium.com\
-[https://github.com/sposth](https://github.com/sposth)
+
 
 **Liccium B.V.** \
 Homepage [https://liccium.com](https://liccium.com)\

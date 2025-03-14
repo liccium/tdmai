@@ -1,4 +1,18 @@
-# Recommendations for Rightsholders' Preferences
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
+# Recommendations for Opt-out
 
 Liccium's TDM·AI protocol describes the method of "soft-binding" rights reservations to ISCC codes, such as an opt-out declaration. To be effective, rights reservations must be:
 

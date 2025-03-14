@@ -1,8 +1,19 @@
 ---
 description: DRAFT FOR DISCUSSION Last updated 2024-12-18
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
-# TDM·AI Protocol
+# What is the TDM·AI Protocol?
 
 <figure><img src=".gitbook/assets/TDM-AI-LINEAR_B_IDEOGRAM_B104_DEER-1280-640.png" alt=""><figcaption></figcaption></figure>
 
