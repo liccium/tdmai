@@ -33,14 +33,16 @@ This example revokes a previous opt-out for a specific asset, reauthorizing its 
 {% endcode %}
 
 {% hint style="info" %}
-#### Why Revocation Matters — Even When Permission Is the Default
+####
+
+### Why Issue a Revocation?
 
 Under the EU’s Copyright in the Digital Single Market Directive (CDSM Directive, 2019/790), the use of copyrighted content for Text and Data Mining (TDM) is governed by statutory exceptions rather than by traditional licensing.
 
 Two Key Legal Provisions Define the Framework:
 
-* **Article 3** — Allows TDM for **research organisations and cultural heritage institutions** without needing prior permission. No opt-out is possible.
-* **Article 4** — Allows TDM for **all other users**, including commercial actors, **unless** the rightsholder has **explicitly reserved their rights** in a machine-readable way.
+* Article 3 — Allows TDM for research organisations and cultural heritage institutions without needing prior permission. No opt-out is possible.
+* Article 4 — Allows TDM for all other users, including commercial actors, unless the rightsholder has explicitly reserved their rights in a machine-readable way.
 
 In practice, this means that:
 
@@ -50,18 +52,16 @@ This legal default – referred to in Article 4(3) – makes it lawful to mine c
 
 
 
-Why Issue a Revocation?
+Even though permission is assumed in the absence of an opt-out, an explicit revocation of a previous opt-out is often necessary or useful. This is because:
 
-Even though permission is assumed in the absence of an opt-out, an **explicit revocation** of a previous opt-out is often necessary or useful. This is because:
-
-* **Third-party systems may cache or store earlier declarations**, continuing to enforce restrictions that are no longer intended.
-* **Archived opt-outs may persist** in datasets used by AI developers or data brokers.
-* **Researchers and developers may require proof of permission**, especially if access was previously denied.
+* Third-party systems may cache or store earlier declarations, continuing to enforce restrictions that are no longer intended.
+* Archived opt-outs may persist in datasets used by AI developers or data brokers.
+* Researchers and developers may require proof of permission, especially if access was previously denied.
 
 A revocation declaration serves to:
 
-* &#x20;**Remove any lingering restrictions** from prior machine-readable opt-outs
-* **Clearly signal that the rightsholder now allows TDM, AI training, or generative AI training**
+* &#x20;Remove any lingering restrictions from prior machine-readable opt-outs
+* Clearly signal that the rightsholder now allows TDM, AI training, or generative AI training
 
 Revocations ensure transparency, help maintain up-to-date compliance, and support interoperability across evolving systems.
 {% endhint %}
