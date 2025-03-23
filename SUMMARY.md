@@ -15,9 +15,12 @@
   * [Advantages of Soft-Binding](options-for-metadata-binding/advantages-of-soft-binding.md)
 * [Benefits of TDM·AI](benefits-of-tdm-ai.md)
 
-## Specification
+## Technical Specification
 
-* [Technical Specification](specification/technical-specification.md)
+* [Opt-out Vocabulary](technical-specification/opt-out-vocabulary.md)
+* [JSON Structure and Declaration Examples](technical-specification/json-structure-and-declaration-examples.md)
+* [Revocation](technical-specification/revocation.md)
+* [JSON Schema Definition](technical-specification/json-schema-definition.md)
 
 ## Legal Aspects
 
