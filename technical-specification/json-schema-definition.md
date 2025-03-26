@@ -17,68 +17,58 @@ The schema defines required fields, permitted values, and semantic constraints. 
 This schema is designed to be:
 
 * Interoperable – compatible with multiple opt-out systems
-* Hierarchically consistent – reflecting the vocabulary structure
 * Future-proof – allowing for optional metadata and extensibility
 
-Implementations are expected to validate opt-out declarations against this schema before processing or honoring them.
+Implementations are expected to validate opt-out declarations against this schema before processing or honouring them. In specific use-cases, they MAY additionally want to ignore any additional properties (or discard any records containing additional properties) for security reasons, i.e. by adding `“additionalProperties”:false` at the end of the schema. In other use cases, they MAY also want to validate that the values provided are logically consistent with the hierarchy between TDM rights, training rights, and generative training rights mentioned above. The following suffices to validate conformance to this core data model, however.
 
 {% code overflow="wrap" %}
 ```json
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "TDMAI Opt-Out Declaration",
-  "type": "object",
-  "required": ["iscc", "tdmOptOut", "TDMAI_summary", "TDMAI_policy"],
-  "properties": {
-    "iscc": {
-      "type": "string",
-      "description": "ISCC identifier for the declared asset."
-    },
-    "tdmOptOut": {
-      "type": "object",
-      "required": ["TDM", "aiTraining", "generativeAI"],
-      "properties": {
-        "TDM": {
-          "type": "boolean",
-          "description": "Permission for text and data mining (true = allowed, false = opt-out)."
-        },
-        "aiTraining": {
-          "type": "boolean",
-          "description": "Permission for general-purpose AI training (true = allowed, false = opt-out)."
-        },
-        "generativeAI": {
-          "type": "boolean",
-          "description": "Permission for generative AI training (true = allowed, false = opt-out)."
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "TDMAI Opt-Out Declaration",
+    "type": "object",
+    "required": ["iscc", "usagePermission", "permissionSummary", "permissionPolicy"],
+    "properties": {
+      "iscc": {
+        "type": "string",
+        "description": "ISCC identifier for the declared asset. See https://iscc.codes for specification."
+      },
+      "usagePermission": {
+        "type": "object",
+        "required": ["tdm", "aiTraining", "generativeAI"],
+        "properties": {
+          "tdm": {
+            "type": "boolean",
+            "description": "Permission for text and data mining (true = allowed, false = opt-out)."
+          },
+          "aiTraining": {
+            "type": "boolean",
+            "description": "Permission for general-purpose AI training (true = allowed, false = opt-out)."
+          },
+          "generativeAI": {
+            "type": "boolean",
+            "description": "Permission for generative AI training (true = allowed, false = opt-out)."
+          }
         }
+      },
+      "permissionSummary": {
+        "type": "string",
+        "description": "Plain-language summary of the permissions declaration."
+      },
+      "permissionPolicy": {
+        "type": "string",
+        "description": "Detailed policy statement, possibly including legal references, explaining the context in which the permissions are declared."
+      },
+      "intent": {
+        "type": "string",
+        "enum": ["activate", "update", "supersede"],
+        "description": "Informational hint about whether this is an initial declaration (activate), a re-declaration by a repeat registrant (update), or an automatic/policy-triggered declaration (supersede)."
+      },
+      "version": {
+        "type": "string",
+        "description": "Optional semantic versioning string (e.g. '1.0.1')."
       }
-    },
-    "TDMAI_summary": {
-      "type": "string",
-      "description": "Plain-language summary of the declaration."
-    },
-    "TDMAI_policy": {
-      "type": "string",
-      "description": "Detailed policy statement, possibly including legal references."
-    },
-    "revocation": {
-      "type": "boolean",
-      "description": "Indicates whether this declaration revokes a previously issued opt-out (default: false)."
-    },
-    "status": {
-      "type": "string",
-      "enum": ["active", "revoked", "superseded"],
-      "description": "Current status of the declaration."
-    },
-    "version": {
-      "type": "string",
-      "description": "Optional semantic versioning string (e.g. '1.0.1')."
-    },
-    "modified": {
-      "type": "string",
-      "format": "date-time",
-      "description": "Timestamp of the declaration or last update (ISO 8601 format)."
     }
   }
-}
 ```
 {% endcode %}

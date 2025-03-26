@@ -4,13 +4,13 @@ description: DRAFT for Discussion 2025-03-20
 
 # Revocation
 
-## Opt-out Revocation
+## Updating Opt-out Status
 
-In certain situations, a rightsholder who has previously issued an opt-out declaration may choose to reverse that decision. An **opt-out revocation** is a machine-readable statement that explicitly indicates the removal of prior restrictions on the use of a work for Text and Data Mining (TDM), AI training, and/or generative AI training.
+In certain situations, a rightsholder who has previously expressed an opt-out declaration may choose to reverse that decision. An opt-out revocation is a machine-readable statement that explicitly indicates the removal of prior restrictions on the use of a work for Text and Data Mining (TDM), AI training, and/or generative AI training.
 
-While permission is generally the default in the absence of an opt-out, an explicit revocation is useful in cases where a prior opt-out was published and may still be active in third-party systems. Revocation ensures clarity and removes ambiguity for downstream users and compliance systems.
+While permission is generally the default in the absence of an opt-out, explicitly marking subsequent declarations as updates is useful in cases where a prior opt-out was published and may still be active in third-party systems, or the continuity of record histories is otherwise broken. Revocation ensures clarity and removes ambiguity for downstream users and compliance systems.
 
-A revocation is expressed using the same JSON structure as a regular opt-out declaration, but with all relevant categories marked as allowed (`true`). To make the intent clear, a revocation may include an optional `"revocation": true` flag or `"status": "revoked"`.
+A revocation is expressed using the same JSON structure as a regular opt-out declaration, but with all relevant categories marked as allowed (`true`). To make the intent explicit, a revoking or updating re-declaration may include the optional property `"intent": "update"` as a hint that thus declaration intends to replace an older one.
 
 ### **Example: Revocation of a Previous Opt-Out**
 
@@ -25,9 +25,9 @@ This example revokes a previous opt-out for a specific asset, reauthorizing its 
     "aiTraining": true,
     "generativeAI": true
   },
-  "revocation": true,
-  "TDMAI_summary": "The previous opt-out declaration has been revoked. Content may now be used for TDM, AI training, and generative AI training.",
-  "TDMAI_policy": "This statement revokes any previously issued opt-out declarations for this work. The content may now be used for text and data mining (TDM), training of general-purpose AI systems, and training of generative AI systems. This update supersedes all prior restrictions."
+  "intent": "update",
+  "permissionSummary": "The previous opt-out declaration has been revoked. Content may now be used for TDM, AI training, and generative AI training.",
+  "permissionsPolicy": "This statement revokes any previously issued opt-out declarations for this work. The content may now be used for text and data mining (TDM), training of general-purpose AI systems, and training of generative AI systems. This update supersedes all prior restrictions."
 }
 ```
 {% endcode %}
