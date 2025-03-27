@@ -14,6 +14,7 @@
   * [Issues of Hard Binding](options-for-metadata-binding/issues-of-hard-binding.md)
   * [Advantages of Soft-Binding](options-for-metadata-binding/advantages-of-soft-binding.md)
 * [Benefits of TDM·AI](benefits-of-tdm-ai.md)
+* [Opt-out, opt-in and content licensing](opt-out-opt-in-and-content-licensing.md)
 
 ## Technical Specification
 
