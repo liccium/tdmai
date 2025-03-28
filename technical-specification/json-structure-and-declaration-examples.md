@@ -82,7 +82,7 @@ This declaration **opts out** only from generative AI training, while **allowing
 ```json
 {
   "iscc": "ISCC:KEC7VSV5QH7FTV7N5YVD5UMF4TUKFFGDGCOI4UDFKE4FNPW6C3L7J2Y",
-  "tdmOptOut": {
+  "usagePermission": {
     "TDM": true,
     "generativeAI": false
   },
