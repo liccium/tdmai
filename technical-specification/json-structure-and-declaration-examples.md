@@ -56,7 +56,7 @@ This declaration **opts out** of all uses – TDM, AI training, and generative A
 ```
 {% endcode %}
 
-### **Example 2: Opt-Out of AI Training and Generative AI Training, but Allowing TDM**
+### **Example 2: Opt-Out of AI Training and Generative AI Training**
 
 This declaration **opts out** of AI and generative AI training but **allows** text and data mining.
 
@@ -74,7 +74,7 @@ This declaration **opts out** of AI and generative AI training but **allows** te
 ```
 {% endcode %}
 
-### **Example 3: Opt-Out of Generative AI Training Only**
+### **Example 3: Opt-Out of Generative AI Training**
 
 This declaration **opts out** only from generative AI training, while **allowing** TDM and general AI training.
 
