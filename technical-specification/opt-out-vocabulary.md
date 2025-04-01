@@ -45,7 +45,11 @@ Opting out of TDM automatically includes opting out of AI training and generativ
 
 **Definition**:&#x20;
 
-The act of training general-purpose AI models or other types of AI models capable of performing a wide range of tasks, including labeling, classifying, recognizing patterns, making decisions, and semantically understanding content.
+The act of training AI models.
+
+{% hint style="info" %}
+AI models can be training general-purpose AI models or other types of AI models capable of performing a wide range of tasks, including labeling, classifying, recognizing patterns, making decisions, and semantically understanding content.
+{% endhint %}
 
 **Implications**:&#x20;
 
