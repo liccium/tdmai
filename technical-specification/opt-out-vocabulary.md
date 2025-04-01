@@ -17,7 +17,9 @@ layout:
 
 ​​This section defines the controlled vocabulary used to express rights reservations (in the following termed: “opt-out declarations”) under the TDM·AI Protocol. The vocabulary enables machine-readable communication of rights reservations regarding the use of digital content for text and data mining (TDM), AI training, and generative AI training.
 
-The vocabulary is based on the proposal by the Open Future Foundation: "A Vocabulary for Opting Out of AI Training and Other Forms of TDM" (07 March 2025) Available at: [https://openfuture.eu/publication/a-vocabulary-for-opting-out-of-ai-training-and-other-forms-of-tdm](https://openfuture.eu/publication/a-vocabulary-for-opting-out-of-ai-training-and-other-forms-of-tdm)
+The vocabulary is based on the proposal by the Open Future Foundation: "A Vocabulary for Opting Out of AI Training and Other Forms of TDM" (07 March 2025) Available at: [https://openfuture.eu/publication/a-vocabulary-for-opting-out-of-ai-training-and-other-forms-of-tdm](https://openfuture.eu/publication/a-vocabulary-for-opting-out-of-ai-training-and-other-forms-of-tdm).
+
+Also see the 'Active Internet-Draft' of the Internet Engineering Task Force (IETF) [aipref WG](https://datatracker.ietf.org/wg/aipref/about/): [https://datatracker.ietf.org/doc/draft-keller-aipref-vocab/](https://datatracker.ietf.org/doc/draft-keller-aipref-vocab/)
 
 The vocabulary is structured hierarchically to reflect legal and technical relationships between different types of uses. Each category can be declared independently, but opt-outs at a higher level also cause restrictions on subordinate categories, as described below.
 
