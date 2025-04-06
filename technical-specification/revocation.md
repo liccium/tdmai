@@ -19,7 +19,7 @@ This example revokes a previous opt-out for a specific asset, reauthorizing its 
 {% code overflow="wrap" %}
 ```json
 {
-  "iscc": "ISCC:EXAMPLECODE1234567890",
+  "iscc": "ISCC:EXAMPLE5QH7FTV7N5YVD5UMF4TUKFFGDGCOI4UDFKE4FNPW6C3L7J2Y",
   "tdmOptOut": {
     "TDM": true,
     "aiTraining": true,

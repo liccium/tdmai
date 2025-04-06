@@ -46,7 +46,7 @@ This declaration **opts out** of all uses – TDM, AI training, and generative A
 {% code overflow="wrap" %}
 ```json
 {
-  "iscc": "ISCC:KEC7VSV5QH7FTV7N5YVD5UMF4TUKFFGDGCOI4UDFKE4FNPW6C3L7J2Y",
+  "iscc": "ISCC:EXAMPLE5QH7FTV7N5YVD5UMF4TUKFFGDGCOI4UDFKE4FNPW6C3L7J2Y",
   "usagePermission": {
     "tdm": false,
   },
@@ -63,7 +63,7 @@ This declaration **opts out** of AI and generative AI training but **allows** te
 {% code overflow="wrap" %}
 ```json
 {
-  "iscc": "ISCC:KEC7VSV5QH7FTV7N5YVD5UMF4TUKFFGDGCOI4UDFKE4FNPW6C3L7J2Y",
+  "iscc": "ISCC:EXAMPLE5QH7FTV7N5YVD5UMF4TUKFFGDGCOI4UDFKE4FNPW6C3L7J2Y",
   "usagePermission": {
     "TDM": true,
     "aiTraining": false,
@@ -81,7 +81,7 @@ This declaration **opts out** only from generative AI training, while **allowing
 {% code overflow="wrap" %}
 ```json
 {
-  "iscc": "ISCC:KEC7VSV5QH7FTV7N5YVD5UMF4TUKFFGDGCOI4UDFKE4FNPW6C3L7J2Y",
+  "iscc": "ISCC:EXAMPLE5QH7FTV7N5YVD5UMF4TUKFFGDGCOI4UDFKE4FNPW6C3L7J2Y",
   "usagePermission": {
     "TDM": true,
     "generativeAI": false
