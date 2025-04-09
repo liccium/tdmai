@@ -32,7 +32,7 @@ The following schema suffices to validate conformance to this core data model.
   "$id": "https://docs.tdmai.org/schema/usage-reservation-v1.json",
   "title": "Usage Reservation Declaration",
   "type": "object",
-  "required": ["version", "iscc"],
+  "required": ["version", "iscc", "intent"],
   "properties": {
     "version": {
       "type": "string",
@@ -50,7 +50,7 @@ The following schema suffices to validate conformance to this core data model.
     },
     "intent": {
       "type": "string",
-      "description": "Optional declaration purpose.",
+      "description": "Type of declaration.",
       "enum": ["activate", "update", "supercede"],
       "default": "activate"
     },
