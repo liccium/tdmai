@@ -34,7 +34,7 @@ A more robust framework would require AI developers to verify whether rights res
 
 ### Copyrighted content is republished on the Internet without authorisation.
 
-Content frequently appears online without rightsholders' permission due to piracy, negligence, or ignorance. While "Sub-Measure 4.5. No crawling of piracy websites" is a positive step, it fails to address cases of unauthorized republication on legitimate platforms. For example, copyrighted images may circulate on forums, blogs, or social media without any indication of their original source.
+Content frequently appears online without rightsholders' permission due to piracy, negligence, or ignorance. While banning crawling of websites on which pirated content is published may be a step forward, it fails to address cases of unauthorised republication on legal platforms. For example, copyrighted images may circulate on forums, blogs, or social media without any indication of their original source.
 
 Robots.txt is ineffective here because those sharing the content may not be aware of the original rights reservation or may actively disregard it.
 
