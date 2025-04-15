@@ -21,6 +21,7 @@ This example revokes a previous reservation for a specific asset, reauthorizing 
 {
   "iscc": "ISCC:EXAMPLE5QH7FTV7N5YVD5UMF4TUKFFGDGCOI4UDFKE4FNPW6C3L7J2Y",
   "intent": "update",
+  "reference": "[[declarationID]]",
   "reservationSummary": "The previous reservation has been revoked. Content may now be used for TDM, AI training, and generative AI training.",
   "reservationPolicy": "This statement revokes any previously issued usage reservations for this work. The content may now be used for text and data mining (TDM), training of general-purpose AI systems, and training of generative AI systems. This update supersedes all prior restrictions."
 }

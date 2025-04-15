@@ -48,6 +48,11 @@ The following schema suffices to validate conformance to this core data model.
       "description": "The declared usage restriction level.",
       "enum": ["TDM", "AITraining", "genAITraining"]
     },
+    "reference": {
+      "type": "string",
+      "description": "Reference to updated declaration (declarationID)",
+      "default": "undefined"
+    },
     "intent": {
       "type": "string",
       "description": "Type of declaration.",
