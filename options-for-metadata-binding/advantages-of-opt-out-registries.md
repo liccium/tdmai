@@ -12,11 +12,11 @@ layout:
     visible: true
 ---
 
-# Advantages of Soft-Binding
+# Advantages of Opt-Out Registries
 
 ## The TDM·AI Protocol
 
-The TDM·AI protocol proposes a reliable method to soft-bind rightsholders' preferences to the content-derived identifier. Creators and rightsholders can generate ISCC codes directly from their content and choose the rightsholder preference for the content. ISCC codes and the selected preferences can be publicly declared in a network of open, centralised or federated, verifiable metadata directories.&#x20;
+The TDM·AI protocol proposes a reliable method of binding rightsholders' preferences to the content-derived identifier and digital fingerprint of the media file. Creators and rightsholders can generate ISCC codes directly from their content and choose the rightsholder preference for the content. ISCC codes and the selected preferences can be publicly declared in a network of open, centralised or federated, verifiable metadata directories.&#x20;
 
 These directories persistently bind the rightsholders' preferences to the unique identifier of the media asset (ISCC Codes) – and ‘persistently’ means: the data cannot be separated or removed. Federated directories have to be publicly accessible to discover ISCC codes, resolve associated rightsholder preferences and verify the authenticity and originality of the declarations.&#x20;
 

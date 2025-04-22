@@ -12,7 +12,7 @@
 * [Options for Metadata Binding](options-for-metadata-binding/README.md)
   * [Issues of Domain-Based Opt-out](options-for-metadata-binding/issues-of-domain-based-opt-out.md)
   * [Issues of Hard Binding](options-for-metadata-binding/issues-of-hard-binding.md)
-  * [Advantages of Soft-Binding](options-for-metadata-binding/advantages-of-soft-binding.md)
+  * [Advantages of Opt-Out Registries](options-for-metadata-binding/advantages-of-opt-out-registries.md)
 * [Benefits of TDM·AI](benefits-of-tdm-ai.md)
 * [Opt-out, opt-in and content licensing](opt-out-opt-in-and-content-licensing.md)
 
