@@ -19,7 +19,7 @@ layout:
 
 The vocabulary is based on the proposal by the Open Future Foundation: "A Vocabulary for Opting Out of AI Training and Other Forms of TDM" (07 March 2025) Available at: [https://openfuture.eu/publication/a-vocabulary-for-opting-out-of-ai-training-and-other-forms-of-tdm](https://openfuture.eu/publication/a-vocabulary-for-opting-out-of-ai-training-and-other-forms-of-tdm).
 
-Also see the 'Active Internet-Draft' of the Internet Engineering Task Force (IETF) [aipref WG](https://datatracker.ietf.org/wg/aipref/about/): [https://datatracker.ietf.org/doc/draft-keller-aipref-vocab/](https://datatracker.ietf.org/doc/draft-keller-aipref-vocab/)
+Also see the 'Active Internet-Draft' of the Internet Engineering Task Force (IETF) aipref WG: [https://www.ietf.org/archive/id/draft-keller-aipref-vocab-01.html](https://www.ietf.org/archive/id/draft-keller-aipref-vocab-01.html)
 
 The vocabulary is structured hierarchically to reflect legal and technical relationships between different types of uses. Each category can be declared independently, but opt-outs at a higher level also cause restrictions on subordinate categories, as described below.
 
