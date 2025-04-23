@@ -11,7 +11,7 @@
 * [Recommendations for Opt-out](recommendations-for-opt-out.md)
 * [Metadata Binding](metadata-binding/README.md)
   * [Issues of Domain-Based Opt-out](metadata-binding/issues-of-domain-based-opt-out.md)
-  * [Issues of Hard Binding](metadata-binding/issues-of-hard-binding.md)
+  * [Issues of Asset-Based Optout](metadata-binding/issues-of-asset-based-optout.md)
   * [Advantages of Opt-Out Registries](metadata-binding/advantages-of-opt-out-registries.md)
 * [Benefits of TDM·AI](benefits-of-tdm-ai.md)
 * [Opt-out, opt-in and content licensing](opt-out-opt-in-and-content-licensing.md)
