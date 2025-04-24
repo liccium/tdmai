@@ -16,6 +16,14 @@
 * [Benefits of TDM·AI](benefits-of-tdm-ai.md)
 * [Opt-out, opt-in and content licensing](opt-out-opt-in-and-content-licensing.md)
 
+## Federated Registries
+
+* [Registries for Training Preferences](federated-registries/registries-for-training-preferences.md)
+
+***
+
+* [Federated Registries Explained](federated-registries-explained.md)
+
 ## Technical Specification
 
 * [Opt-out Vocabulary](technical-specification/opt-out-vocabulary.md)
