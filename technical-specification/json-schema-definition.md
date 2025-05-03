@@ -46,7 +46,12 @@ The following schema suffices to validate conformance to this core data model.
     "usageReservation": {
       "type": "string",
       "description": "The declared usage restriction level.",
-      "enum": ["TDM", "AITraining", "genAITraining"]
+      "enum": ["TDM", "AiTraining", "genAiTraining"]
+    },
+    "usagePermission": {
+      "type": "string",
+      "description": "The declared usage permission level.",
+      "enum": ["TDM", "AiTraining", "genAiTraining"]
     },
     "reference": {
       "type": "string",

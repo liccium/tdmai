@@ -26,7 +26,7 @@
 
 ## Technical Specification
 
-* [Opt-out Vocabulary](technical-specification/opt-out-vocabulary.md)
+* [Usage Preferences Vocabulary](technical-specification/usage-preferences-vocabulary.md)
 * [JSON Structure and Declaration Examples](technical-specification/json-structure-and-declaration-examples.md)
 * [Revocation](technical-specification/revocation.md)
 * [JSON Schema Definition](technical-specification/json-schema-definition.md)
