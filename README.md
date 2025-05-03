@@ -19,7 +19,7 @@ layout:
 
 ## Abstract&#x20;
 
-TDM·AI is a registry-based protocol for creators and rightsholders to inseparably bind their machine-readable preferences for text and data mining (TDM) to their works. TDM·AI addresses the main problem in controlling AI crawlers, namely the problem of metadata binding, by proposing a reliable method of binding restrictions or permissions to use content for training AI models to digital fingerprints and content-derived identifiers.&#x20;
+TDM·AI is a registry-based protocol for creators and rightsholders to inseparably bind their machine-readable usage preferences for text and data mining (TDM) to their works. TDM·AI addresses the main problem in controlling AI crawlers, namely the problem of metadata binding, by proposing a reliable method of binding restrictions or permissions to use content for training AI models to digital fingerprints and content-derived identifiers.&#x20;
 
 The TDM·AI protocol utilises the International Standard Content Code (ISCC [ISO 24138:2024](https://www.iso.org/standard/77899.html)), a new ISO standard for the identification of digital media content (ISO 24138:2024) and [Creator Credentials](https://docs.creatorcredentials.com/), based on [W3C recommendation for cryptographically verifiable credentials](https://www.w3.org/TR/vc-data-model-2.0/), to ensure that verifiable and machine-readable declarations include proper attribution of preferences and claims to the legitimate rightsholders. Although the protocol has its origins in the European DSM Directive on Copyright 2019/790, Article 4, it may in many cases also be applicable to content published by rightsholders outside the EU.
 
