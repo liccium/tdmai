@@ -1,20 +1,20 @@
 ---
-description: '2025-03-26'
+description: '2025-05-04'
 ---
 
 # Revocation
 
-## Updating Opt-out Status
+## Updating Usage Reservation (Opt-Out)
 
-In certain situations, a rightsholder, who has previously expressed a reservation may choose to reverse that decision. An revocation of an opt-out is a machine-readable statement that explicitly indicates the removal of prior restrictions on the use of a work for Text and Data Mining (TDM), AI training, and/or generative AI training.
+In certain situations, a rightsholder, who has previously expressed a permission or reservation may choose to reverse that decision. An revocation is a machine-readable statement that explicitly indicates the removal of prior permission or restrictions on the use of a work for Text and Data Mining (TDM), AI training, and/or generative AI training.
 
-While permission is generally the default in the absence of an opt-out, explicitly marking subsequent declarations as updates is useful in cases where a prior opt-out was published and may still be active in third-party systems, or the continuity of record histories is otherwise broken. Revocation ensures clarity and removes ambiguity for downstream users and compliance systems.
+While permission is generally the default in the absence of an opt-out (or the absence of an opt-in policy), explicitly marking subsequent declarations as updates is useful in cases where a prior opt-out was published and may still be active in third-party systems, or the continuity of record histories is otherwise broken. Revocation ensures clarity and removes ambiguity for downstream users and compliance systems.
 
-A revocation is expressed using the same JSON structure as a regular opt-out declaration, but with all relevant categories marked as allowed (`true`). To make the intent explicit, a revoking or updating re-declaration may include the optional property `"intent": "update"` as a hint that thus declaration intends to replace an older one.
+A revocation is expressed using the same JSON structure as a regular declaration of a usage preference. To make the revocation intent explicit, a revoking or updating re-declaration may include the optional property `"intent": "update"` as a hint that thus declaration intends to replace an older one.
 
-## Example: Revocation of a Previous Reservation
+## Example: Revocation of a Previous Usage Reservation
 
-This example revokes a previous reservation for a specific asset, reauthorizing its use for **all purposes**, including TDM, AI training, and generative AI training.
+This example revokes a previous reservation for a specific asset, re-authorising its use for **all purposes**, including TDM, AI training, and generative AI training.
 
 {% code overflow="wrap" %}
 ```json
@@ -31,12 +31,11 @@ This example revokes a previous reservation for a specific asset, reauthorizing 
 {% hint style="info" %}
 **Technical Notes:**
 
-* Since **no `usageReservation` is present**, it implies **no restriction** — full permission is granted by default.
 * The `"intent": "update"` field makes the revocation explicit and traceable for downstream systems.
 {% endhint %}
 
 {% hint style="info" %}
-### Why Issue a Revocation?
+### Why issue a revocation in the context of the EU CDSM?
 
 Under the EU’s Copyright in the Digital Single Market Directive (CDSM Directive, 2019/790), the use of copyrighted content for Text and Data Mining (TDM) is governed by statutory exceptions rather than by traditional licensing.
 
