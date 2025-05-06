@@ -120,7 +120,7 @@ Depending on the use case, the legislation and its applicable AI policy, declari
 {
   "iscc": "ISCC:EXAMPLE5QH7FTV7N5YVD5UMF4TUKFFGDGCOI4UDFKE4FNPW6C3L7J2Y",
   "usagePermission": "TDM",
-  "usageReservation": "AiTraining",
+  "usageReservation": "genAiTraining",
   "reservationSummary": "Content may be used for text and data mining but must not be used for AI training or generative AI training.",
 "reservationPolicy": "The use of this work to train AI models is not permitted. This includes training general-purpose AI systems or other models capable of performing a wide range of tasks such as labeling, classification, pattern recognition, decision-making, or semantic content understanding. Use of the work for training generative AI models is also prohibited. However, text and data mining (TDM) is permitted in accordance with Article 4 of Directive 2019/790 (CDSM Directive), provided it does not serve the purpose of model training."
 }
