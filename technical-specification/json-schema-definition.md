@@ -12,7 +12,12 @@ Each declaration expresses the rightsholder’s preferences regarding the use of
 * AI Training
 * Generative AI Training
 
-The schema defines required fields, permitted values, and semantic constraints. It also supports optional fields for revocations, versioning, and timestamps to facilitate updates, traceability, and lifecycle management of declarations.
+The specification requires each usage type (`TDM`, `AiTraining`, and `genAiTraining`) to be declared independently using one of two values:
+
+* `"usagePermission"` — use is explicitly allowed
+* `"usageReservation"` — use is explicitly reserved
+
+The schema defines required fields, permitted values, and semantic constraints. It also supports optional fields for lifecycle operations such as versioning, updates, and revocations, using metadata like `intent`, `summary`, `policy`, and timestamps.
 
 This schema is designed to be:
 
@@ -20,8 +25,6 @@ This schema is designed to be:
 * Future-proof – allowing for optional metadata and extensibility
 
 Implementations are expected to validate usage reservation declarations against this schema before processing or honouring them. In specific use-cases, they MAY additionally want to reject or ignore any declarations containing unknown fields, i.e. by adding `"additionalProperties": false` at the root level of the schema.
-
-Implementations MAY also want to validate that the value provided for `usageReservation` is logically consistent with the hierarchical model: `TDM` includes `AITraining` and `genAITraining`, and `AITraining` includes `genAITraining`.
 
 The following schema suffices to validate conformance to this core data model.
 
@@ -43,38 +46,41 @@ The following schema suffices to validate conformance to this core data model.
       "type": "string",
       "description": "A unique content identifier using the ISCC standard (ISO 24138:2024)."
     },
-    "usageReservation": {
+    "TDM": {
       "type": "string",
-      "description": "The declared usage restriction level.",
-      "enum": ["TDM", "AiTraining", "genAiTraining"]
+      "description": "Declared usage status for general text and data mining.",
+      "enum": ["usagePermission", "usageReservation"]
     },
-    "usagePermission": {
+    "AiTraining": {
       "type": "string",
-      "description": "The declared usage permission level.",
-      "enum": ["TDM", "AiTraining", "genAiTraining"]
+      "description": "Declared usage status for AI training (non-generative).",
+      "enum": ["usagePermission", "usageReservation"]
+    },
+    "genAiTraining": {
+      "type": "string",
+      "description": "Declared usage status for generative AI training.",
+      "enum": ["usagePermission", "usageReservation"]
     },
     "reference": {
       "type": "string",
-      "description": "Reference to updated declaration (declarationID)",
-      "default": "undefined"
+      "description": "Reference to an updated or previous declaration (e.g. declarationID)."
     },
     "intent": {
       "type": "string",
-      "description": "Type of declaration.",
+      "description": "Type of declaration in its lifecycle.",
       "enum": ["activate", "update", "supercede"],
       "default": "activate"
     },
-    "reservationSummary": {
+    "summary": {
       "type": "string",
-      "description": "Optional human-readable summary of the reservation."
+      "description": "Optional human-readable summary of declared permissions or reservations."
     },
-    "reservationPolicy": {
+    "policy": {
       "type": "string",
-      "description": "Optional human-readable description of the targeted compliance regime."
+      "description": "Optional human-readable reference to the targeted compliance regime (e.g. CDSM, AI Act)."
     }
   },
   "additionalProperties": false
 }
-
 ```
 {% endcode %}
