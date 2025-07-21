@@ -9,12 +9,12 @@ This is made possible through **federated content registries** – public, open,
 TDM·AI supports declarations built on a shared vocabulary and identifier system, including:
 
 * **ISCC codes** for uniquely identifying content
-* **Standardized opt-out expressions**
+* **Standardised opt-out expressions**
 * **Machine-readable formats** for easy integration and compliance
 
 ## Why This Matters
 
-In today's digital ecosystem, works are collected, processed, and sometimes reused without direct contact between the creator and the user. Registries provide a missing link: a reliable way to declare rights and usage restrictions in a **standardized and resolvable format**.
+In today's digital ecosystem, works are collected, processed, and sometimes reused without direct contact between the creator and the user. Registries provide a missing link: a reliable way to declare rights and usage restrictions in a **standardised and resolvable format**.
 
 This approach offers:
 

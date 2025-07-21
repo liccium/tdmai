@@ -15,10 +15,10 @@ Each registry publishes **minimal metadata** derived from the original declarati
 Registries use a distributed data structure known as a **Distributed Hash Table (DHT)** to store and resolve declarations. Each registry entry is indexed using cryptographic identifiers, including:
 
 * An **ISCC code** as a persistent fingerprint of the media asset
-* A **Content ID (CID)** to verify the integrity of the full metadata record
+* A **Declaration (CID)** derived from metadata, hashes, and signer identity
 * A **Decentralized Identifier (DID)** referencing the declaring party
 * A **timestamp** with cryptographic signatures for authenticity and traceability
-* A **Declaration ID** derived from metadata, hashes, and signer identity
+* Cryptographic **signatures** that allow to verify the integrity of the full metadata record
 
 This system ensures that anyone – whether an online platform, AI developer, or rights organization – can verify the declared rights associated with a specific work using public registry data. Verification does not require access to full metadata or private storage systems. The declaring party’s identity is referenced through a Decentralized Identifier (DID) and supported by verifiable credentials, enabling trust without disclosing personal information.
 
