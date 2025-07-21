@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Issues of Asset-Based Optout
 
 There are multiple standards to embed rights and metadata inside the media file itself, such as IPTC or C2PA.&#x20;

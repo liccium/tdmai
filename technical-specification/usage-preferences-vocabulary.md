@@ -1,56 +1,69 @@
 ---
-description: '2025-03-26'
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
+description: '2025-07-21'
 ---
 
-# Opt-out Vocabulary
+# Usage Preferences Vocabulary
 
-​​This section defines the controlled vocabulary used to express usage permissions or usage reservations under the TDM·AI Protocol. The vocabulary enables machine-readable communication of usage preferences regarding the use of digital content for text and data mining (TDM), AI training, and generative AI training.
+This section defines the controlled vocabulary used to express usage permissions or reservations under the **TDM·AI Protocol**. The vocabulary enables machine-readable communication of preferences regarding the use of digital content for automated processing activities, including AI training and generative AI training.
 
-The vocabulary is based on the proposal by the Open Future Foundation: "A Vocabulary for Opting Out of AI Training and Other Forms of TDM" (07 March 2025) Available at: [https://openfuture.eu/publication/a-vocabulary-for-opting-out-of-ai-training-and-other-forms-of-tdm](https://openfuture.eu/publication/a-vocabulary-for-opting-out-of-ai-training-and-other-forms-of-tdm).
+The TDM·AI vocabulary is based on the structure and semantics defined in the [AI Preferences Vocabulary Internet-Draft](https://www.ietf.org/archive/id/draft-ietf-aipref-vocab-02.html) (linked content may be subject to updates), developed by the **IETF AI Preferences (aipref) Working Group**, and aligned with the [Attachment Mechanisms draft](https://www.ietf.org/archive/id/draft-ietf-aipref-attach-02.html) (linked content may be subject to updates).
 
-Also see the 'Active Internet-Draft' of the Internet Engineering Task Force (IETF) aipref WG: [https://www.ietf.org/archive/id/draft-keller-aipref-vocab-01.html](https://www.ietf.org/archive/id/draft-keller-aipref-vocab-01.html)
+The protocol adopts the same category structure and updated machine-readable keys defined in the IETF drafts:
 
-The vocabulary is structured hierarchically to reflect legal and technical relationships between different types of uses. Each category can be declared independently, but opt-outs at a higher level also cause restrictions on subordinate categories, as described below.
+| Category Name                         | Key           | Description                                                       |
+| ------------------------------------- | ------------- | ----------------------------------------------------------------- |
+| Automated Processing (formerly `tdm`) | `all`         | Top-level category covering all automated analysis and processing |
+| AI Training                           | `train-ai`    | General-purpose or task-specific training of AI models            |
+| Generative AI Training                | `train-genai` | Training models to produce synthetic content                      |
+| AI Use (Inference)                    | `ai-use`      | Using assets as inputs to operate trained AI models               |
+| Search                                | `search`      | Using assets in search engines or discovery applications          |
 
-## Disclaimer on Legal Applicability
+Each category may be declared independently. However, restrictions follow a strict hierarchy: opting out of a higher-level category (e.g., `all`) implies restriction of all its subordinate categories (`train-ai`, `train-genai`, `ai-use`, and `search`).
 
-This vocabulary is designed to provide a standardised, machine-readable means for rightsholders to communicate usage preferences concerning the use of protected content for text and data mining (TDM), artificial intelligence (AI) training, and generative AI training.
+## Vocabulary Definition <a href="#name-vocabulary-definition" id="name-vocabulary-definition"></a>
 
-This vocabulary operates in the context of ongoing legal debate regarding the scope and applicability of statutory TDM exceptions – particularly whether such exceptions, as provided for in EU and national copyright laws, extend to the training of generative AI systems. Current academic and legal discourse, including the work of Dornis and Stober (2024), indicates divergent interpretations and unresolved questions in this area (Dornis, T.W. & Stober, S. (2024). Urheberrecht und Training generativer KI-Modelle – Technologische und juristische Grundlagen, Recht und Digitalisierung, Nomos Verlag.[ Open Access version](https://www.nomos-elibrary.de/10.5771/9783748949558/urheberrecht-und-training-generativer-ki-modelle?page=1); also available at SSRN:[ https://ssrn.com/abstract=4946214](https://ssrn.com/abstract=4946214)).
+This section defines the categories of use in the vocabulary, quoted from the IETF , [https://www.ietf.org/archive/id/draft-ietf-aipref-vocab-02.html#section-4](https://www.ietf.org/archive/id/draft-ietf-aipref-vocab-02.html#section-4).
 
-The inclusion of terms and categories in this vocabulary does not constitute a legal determination of whether any given use is permitted or prohibited under applicable law. Rather, it reflects the intention of rightsholders to express usage rights, e.g. reserve rights, to the fullest extent permitted by law and to provide clear signals to users and AI developers in light of legal uncertainty.
+### 1. Automated Processing Category <a href="#name-automated-processing-catego" id="name-automated-processing-catego"></a>
 
-Implementers and users of this vocabulary are advised to seek legal counsel regarding the specific application of copyright exceptions and limitations in their jurisdiction. The use of this vocabulary does not substitute for legal advice nor does it imply endorsement of any particular legal interpretation.
+"The act of using one or more assets in the context of automated processing aimed at analysing text and data in order to generate information which includes but is not limited to patterns, trends and correlations.
 
-### 1. Usage Reservation: TDM (`TDM`)&#x20;
+The use of assets for automated processing encompasses all the subsequent categories."
 
-The act of using assets in the context of any automated analytical technique aimed at analysing text and data in digital form in order to generate information, including but not limited to patterns, trends, and correlations.
+### 2. AI Training Category <a href="#name-ai-training-category" id="name-ai-training-category"></a>
 
-A reservation of `TDM` means that `AiTraining` and `genAiTraining` is also reserved.
+"The act of training machine learning models or artificial intelligence (AI).
 
-### 2. Usage Reservation: AI Training (`AiTraining`)&#x20;
+The use of assets for AI Training is a proper subset of Automated Processing usage"
 
-The act of training AI models.
+### 3. Generative AI Training Category <a href="#name-generative-ai-training-cate" id="name-generative-ai-training-cate"></a>
 
-{% hint style="info" %}
-AI models can be training general-purpose AI models or other types of AI models capable of performing a wide range of tasks, including labeling, classifying, recognising patterns, making decisions, and semantically understanding content.
-{% endhint %}
+"The act of training general purpose AI models that have the capacity to generate text, images or other forms of synthetic content, or the act of training more specialised AI models that have the purpose of generating text, images or other forms of synthetic content.
 
-A reservation of `AiTraining` allows TDM but means that `genAiTraining` is also reserved.
+The use of assets for Generative AI Training is a proper subset of AI Training usage."
 
-### 3. Usage Reservation: Generative AI Training (`genAiTraining`)&#x20;
+### 4. AI Use Category
 
-The act of training **general-purpose AI models**, improving their **capacity** to generate text, images, or other forms of synthetic content, or training **other types of AI models** that have the **purpose** of generating text, images, or other forms of synthetic content.
+"The act of using one or more assets as input to a trained AI/ML model as part of the operation of that model (as opposed to the training of the model).
 
-A reservation of `genAiTraining` does not imply any restriction on `TDM` or `AiTraining`.
+The use of assets for AI Use is a proper subset of Automated Processing usage."
+
+### 5. Search Category
+
+"Using one or more assets in a search application that directs users to the location from which the assets were retrieved."
+
+The purpose of defining a distinct Search category is to allow preferences to be expressed about search applications, independent of other categories of use. A distinct Search category allows for preferences specific to search applications, even if the use of AI is involved in their implementation.
+
+The use of assets for Search is a proper subset of Automated Processing usage."
+
+## Extension: Registry-Based Declarations
+
+The IETF draft focuses on **location-based expression of preferences** (e.g., via robots.txt file or HTTP headers) it explicitly states.
+
+The TDM·AI Protocol addresses this limitation by supporting **registry-based declarations**, enabling verifiable and persistent preference signaling even when content is redistributed or metadata is stripped. In this model:
+
+* Declarations are linked to content-derived identifiers (ISCC fingerprints).
+* Preferences are published to federated registries.
+* Anyone with access to the content can generate the ISCC fingerprint and verify the declared usage policy.
+
+This architecture is fully compatible with the IETF vocabulary and enhances its practical applicability in federated, cross-platform environments.

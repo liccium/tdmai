@@ -1,16 +1,5 @@
 ---
 description: DRAFT FOR DISCUSSION Last updated 2024-12-18
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # What is the TDM·AI Protocol?

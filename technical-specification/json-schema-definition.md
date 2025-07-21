@@ -4,25 +4,22 @@ description: '2025-03-26'
 
 # JSON Schema Definition
 
-This section provides the formal JSON Schema for validating opt-out declarations under the TDM·AI Protocol. The schema ensures that all declarations follow a consistent, machine-readable structure, enabling reliable processing across tools, platforms, and compliance systems.
+This section provides the formal JSON Schema for validating declarations under the **TDM·AI Protocol**. The schema ensures that all declarations follow a consistent, machine-readable structure, enabling reliable processing across tools, registries, and compliance systems.
 
 Each declaration expresses the rightsholder’s preferences regarding the use of their content for:
 
-* Text and Data Mining (TDM)
-* AI Training
-* Generative AI Training
+* Automated Processing (`all`)
+* AI Training (`train-ai`)
+* Generative AI Training (`train-genai`)
+* AI Use / Inference (`ai-use`)
+* Search (`search`)
 
-The specification requires each usage type (`TDM`, `AiTraining`, and `genAiTraining`) to be declared independently using one of two values:
+Usage preferences are encoded using the IETF-compatible tokens:
 
-* `"usagePermission"` — use is explicitly allowed
-* `"usageReservation"` — use is explicitly reserved
+* `"y"` — use is explicitly allowed
+* `"n"` — use is explicitly disallowed (opt-out)
 
-The schema defines required fields, permitted values, and semantic constraints. It also supports optional fields for lifecycle operations such as versioning, updates, and revocations, using metadata like `intent`, `summary`, `policy`, and timestamps.
-
-This schema is designed to be:
-
-* Interoperable – compatible with multiple opt-out systems
-* Future-proof – allowing for optional metadata and extensibility
+The schema defines required fields, permitted values, and optional metadata for lifecycle management such as updates and policy declarations.
 
 Implementations are expected to validate usage reservation declarations against this schema before processing or honouring them. In specific use-cases, they MAY additionally want to reject or ignore any declarations containing unknown fields, i.e. by adding `"additionalProperties": false` at the root level of the schema.
 
@@ -32,8 +29,8 @@ The following schema suffices to validate conformance to this core data model.
 ```json
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://docs.tdmai.org/schema/usage-reservation-v1.json",
-  "title": "Usage Reservation Declaration",
+  "$id": "https://docs.tdmai.org/technical-specification/json-schema-definition",
+  "title": "TDM·AI Usage Declaration",
   "type": "object",
   "required": ["version", "iscc", "intent"],
   "properties": {
@@ -46,24 +43,34 @@ The following schema suffices to validate conformance to this core data model.
       "type": "string",
       "description": "A unique content identifier using the ISCC standard (ISO 24138:2024)."
     },
-    "TDM": {
+    "all": {
       "type": "string",
-      "description": "Declared usage status for general text and data mining.",
-      "enum": ["usagePermission", "usageReservation"]
+      "description": "Preference for general automated processing.",
+      "enum": ["y", "n"]
     },
-    "AiTraining": {
+    "train-ai": {
       "type": "string",
-      "description": "Declared usage status for AI training (non-generative).",
-      "enum": ["usagePermission", "usageReservation"]
+      "description": "Preference for AI training (non-generative).",
+      "enum": ["y", "n"]
     },
-    "genAiTraining": {
+    "train-genai": {
       "type": "string",
-      "description": "Declared usage status for generative AI training.",
-      "enum": ["usagePermission", "usageReservation"]
+      "description": "Preference for generative AI training.",
+      "enum": ["y", "n"]
+    },
+    "ai-use": {
+      "type": "string",
+      "description": "Preference for inference-time use of the asset as input to a trained model.",
+      "enum": ["y", "n"]
+    },
+    "search": {
+      "type": "string",
+      "description": "Preference for inclusion in search applications.",
+      "enum": ["y", "n"]
     },
     "reference": {
       "type": "string",
-      "description": "Reference to an updated or previous declaration (e.g. declarationID)."
+      "description": "Reference to a prior declaration (CID) this one updates or supersedes."
     },
     "intent": {
       "type": "string",

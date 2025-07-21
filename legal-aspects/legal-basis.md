@@ -1,20 +1,16 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Legal Basis
 
-### The EU Copyright Directive
+## Disclaimer on Legal Applicability
+
+This vocabulary is designed to provide a standardised, machine-readable means for rightsholders to communicate usage preferences concerning the use of protected content for automated processing or text and data mining (TDM), artificial intelligence (AI) training, and generative AI training.
+
+This vocabulary operates in the context of ongoing legal debate regarding the scope and applicability of statutory TDM exceptions – particularly whether such exceptions, as provided for in EU and national copyright laws, extend to the training of generative AI systems. Current academic and legal discourse, including the work of Dornis and Stober (2024), indicates divergent interpretations and unresolved questions in this area (Dornis, T.W. & Stober, S. (2024). Urheberrecht und Training generativer KI-Modelle – Technologische und juristische Grundlagen, Recht und Digitalisierung, Nomos Verlag.[ Open Access version](https://www.nomos-elibrary.de/10.5771/9783748949558/urheberrecht-und-training-generativer-ki-modelle?page=1); also available at SSRN:[ https://ssrn.com/abstract=4946214](https://ssrn.com/abstract=4946214)).
+
+The inclusion of terms and categories in this vocabulary does not constitute a legal determination of whether any given use is permitted or prohibited under applicable law. Rather, it reflects the intention of rightsholders to express usage rights, e.g. reserve rights, to the fullest extent permitted by law and to provide clear signals to users and AI developers in light of legal uncertainty.
+
+Implementers and users of this vocabulary are advised to seek legal counsel regarding the specific application of copyright exceptions and limitations in their jurisdiction. The use of this vocabulary does not substitute for legal advice nor does it imply endorsement of any particular legal interpretation.
+
+## The EU Copyright Directive
 
 [Article 4 of the EU Copyright Directive 2019/790 (DSM Directive)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019L0790) requires EU Member States to provide an "exception \[...] of this Directive for reproductions and extractions of lawfully accessible works and other subject matter for the purposes of text and data mining", which is defined as "any automated analytical technique aimed at analysing text and data in digital form in order to generate information which includes but is not limited to patterns, trends and correlations".
 

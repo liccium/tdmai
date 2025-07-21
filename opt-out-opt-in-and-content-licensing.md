@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Opt-out, opt-in and content licensing
 
 TDM·AI defines a vocabulary and technical specification for public, machine-readable opt-outs from text and data mining (TDM) and AI training. It is not designed to facilitate active opt-ins or serve as a licensing mechanism. This is by design, and for good reason.

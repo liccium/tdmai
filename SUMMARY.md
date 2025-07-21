@@ -27,8 +27,8 @@
 ## Technical Specification
 
 * [Usage Preferences Vocabulary](technical-specification/usage-preferences-vocabulary.md)
-* [JSON Structure and Declaration Examples](technical-specification/json-structure-and-declaration-examples.md)
-* [Revocation](technical-specification/revocation.md)
+* [JSON Format for Usage Declarations](technical-specification/json-format-for-usage-declarations.md)
+* [Updates](technical-specification/updates.md)
 * [JSON Schema Definition](technical-specification/json-schema-definition.md)
 
 ## Legal Aspects
