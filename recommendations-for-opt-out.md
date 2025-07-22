@@ -2,8 +2,7 @@
 
 Liccium's TDM·AI protocol describes the method of binding rights reservations to ISCC codes, such as an opt-out declaration. To be effective, rights reservations must be:
 
-* **Inseparably bound to the content** (unit, work or asset based approach), \
-  allowing sharing and distribution of content;
+* **Inseparably bound to the fingerprint of the content** allowing sharing and distribution of content;
 * Easily discoverable, accessible and **machine-readable** (legal requirement in the EU);
 * Functional when **content already has been shared and distributed**;
 * Resilient to content manipulation or alteration;
