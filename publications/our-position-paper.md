@@ -1,6 +1,6 @@
-# Position Paper
+# Our Position Paper
 
-We are pleased that our submission to the IAB Workshop on AI-CONTROL (aicontrolws), which will take place in Washington in September 2024, has been accepted. Below, you can download the rendered version as PDF-document.
+An early position paper was submitted to the IAB Workshop on AI-CONTROL (aicontrolws) and accepted. The workshop took place in Washington in September 2024. Below, you can download the published version as PDF-document. Be aware that this version is outdated by the course of events.&#x20;
 
 ## Event
 
@@ -23,4 +23,4 @@ TDM·AI is a protocol for creators and rightsholders to inseparably bind their m
 
 ## Download
 
-{% file src=".gitbook/assets/2014-08-01-FINAL-IAB Workshop aicontrolws.pdf" %}
+{% file src="../.gitbook/assets/2014-08-01-FINAL-IAB Workshop aicontrolws.pdf" %}
