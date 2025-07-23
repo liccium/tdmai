@@ -33,7 +33,7 @@ This example lifts a prior reservation and re-authorises the use of the content 
 ```json
 {
   "iscc": "ISCC:EXAMPLE5QH7FTV7N5YVD5UMF4TUKFFGDGCOI4UDFKE4FNPW6C3L7J2Y",
-  "all": "y",
+  "all": "true",
   "intent": "update",
   "reference": "bafyreibxxxxxxxyyyyyyzzzzzzzddeeeeeeeeeeeeeeeeeeeeeeeee"
 }
@@ -42,7 +42,7 @@ This example lifts a prior reservation and re-authorises the use of the content 
 
 In this case:
 
-* `all: "y"` allows all uses (implicitly permitting `train-ai` and `train-genai`)
+* `all: "true"` allows all uses (implicitly permitting `train-ai` and `train-genai`)
 * `reference` points to the **Declaration ID** (CID v1) of the earlier declaration being replaced
 * `intent: "update"` marks the purpose of the change and makes the revocation explicit and traceable for downstream systems.
 

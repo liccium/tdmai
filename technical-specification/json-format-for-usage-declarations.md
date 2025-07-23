@@ -14,8 +14,8 @@ This section defines the JSON format used to express opt-out and permission decl
 
 The structure follows the [IETF AI Preferences Vocabulary](https://www.ietf.org/archive/id/draft-ietf-aipref-vocab-02.html) and [Attachment Mechanisms](https://www.ietf.org/archive/id/draft-ietf-aipref-attach-02.html), using compact single-byte tokens defined in Section 3.3.4:
 
-* `y` — explicitly allowed
-* `n` — explicitly disallowed
+* `true` — explicitly allowed
+* `false` — explicitly disallowed
 
 ## Declaration Format
 
@@ -23,9 +23,9 @@ Each declaration consists of a flat key-value structure where usage types are as
 
 ```json
 {
-  "all": "n",
-  "ai-use": "y",
-  "search": "y"
+  "all": "false",
+  "ai-use": "true",
+  "search": "true"
 }
 ```
 
@@ -44,8 +44,8 @@ In this example:
 
 **Values**
 
-* `y` — allowed
-* `n` — disallowed
+* `true` — allowed
+* `false` — disallowed
 
 ## Inheritance and Overrides
 
@@ -61,8 +61,8 @@ _Example:_
 
 ```json
 {
-  "all": "y",
-  "train-genai": "n"
+  "all": "true",
+  "train-genai": "false"
 }
 ```
 
@@ -95,8 +95,7 @@ This declaration opts out of all usage categories—automated processing, AI tra
 ```json
 {
   "iscc": "ISCC:EXAMPLE5QH7FTV7N5YVD5UMF4TUKFFGDGCOI4UDFKE4FNPW6C3L7J2Y",
-  "TDM": "usageReservation",
-  "all": "n",
+  "all": "false",
   "summary": "Content must not be used for text and data mining, AI training, or generative AI training.",
   "policy": "The use of this work for text and data mining (TDM) is not permitted. This includes any automated analytical technique aimed at analyzing text or data in digital form to generate information, such as patterns, trends, or correlations. As a result, the work may also not be used for training general-purpose AI models or other systems, including those designed to generate synthetic content. This reservation is made in accordance with Article 4(3) of Directive 2019/790 (CDSM Directive)."
 }
@@ -113,8 +112,8 @@ This declaration permits general automated processing (e.g. indexing, or non-AI 
 ```json
 {
   "iscc": "ISCC:EXAMPLE5QH7FTV7N5YVD5UMF4TUKFFGDGCOI4UDFKE4FNPW6C3L7J2Y",
-  "all": "y",
-  "train-ai": "n",
+  "all": "true",
+  "train-ai": "false",
   "summary": "Content may be used for text and data mining but must not be used for AI training or generative AI training.",
 "policy": "The use of this work to train AI models is not permitted. This includes training general-purpose AI systems or other models capable of performing a wide range of tasks such as labeling, classification, pattern recognition, decision-making, or semantic content understanding. Use of the work for training generative AI models is also prohibited. However, text and data mining (TDM) is permitted in accordance with Article 4 of Directive 2019/790 (CDSM Directive), provided it does not serve the purpose of model training."
 }
@@ -129,8 +128,8 @@ This declaration allows general automated processing and AI training for non-gen
 ```json
 {
   "iscc": "ISCC:EXAMPLE7UXMJCB6AVW4UHYMGYF6NNDPZKHQWQK5ZYPQJNPZAKGMYZQ",
-  "all": "y",
-  "train-genai": "n",
+  "all": "true",
+  "train-genai": "false",
   "summary": "Content may be used for TDM and for training non-generative AI models, but not for generative AI training.",
   "policy": "The use of this work to train AI models that are either (a) general-purpose AI systems with the capacity to generate synthetic content such as text, images, audio, or video, or (b) other types of AI systems whose primary purpose is the generation of such content, is not permitted. Text and Data Mining (TDM) is allowed for non-generative purposes, including training AI systems that do not produce synthetic outputs, in accordance with Article 4 of Directive 2019/790 (CDSM Directive), and for scientific research or temporary reproduction under Article 5(1) of Directive 2001/29/EC."
 }
@@ -145,15 +144,15 @@ This declaration reserves all forms of automated processing, AI training, genera
 ```json
 {
   "iscc": "ISCC:EXAMPLE99XXF42U8AV4EAVFJ6CE2ZH6MPAKMVDKAP5WZRE7YZU2U4FC",
-  "all": "n",
-  "ai-use": "n",
-  "search": "n",
+  "all": "false",
+  "ai-use": "false",
+  "search": "false",
   "summary": "Content must not be used for any form of automated processing, AI training, inference, or search."
 }
 ```
 {% endcode %}
 
-In this example, `train-ai` and `train-genai` are implicitly restricted by `all: "n"`, and `ai-use` and `search` are explicitly disallowed.
+In this example, `train-ai` and `train-genai` are implicitly restricted by `all: "false"`, and `ai-use` and `search` are explicitly disallowed.
 
 ### Example 5: Inference and Search Permitted, Generative Training Reserved
 
@@ -163,10 +162,10 @@ This declaration permits general processing, non-generative AI training, inferen
 ```json
 {
   "iscc": "ISCC:EXAMPLE1YVP4YBZPXVFXMBTBKXGPV5VF6A7JHYYK5R45MEJJSZZDRQU",
-  "all": "y",
-  "train-genai": "n",
-  "ai-use": "y",
-  "search": "y",
+  "all": "true",
+  "train-genai": "false",
+  "ai-use": "true",
+  "search": "true",
   "summary": "Content may be used for search, inference, and training of non-generative AI systems, but not for generative AI training."
 }
 ```
@@ -174,6 +173,6 @@ This declaration permits general processing, non-generative AI training, inferen
 
 In this case:
 
-* `all: "y"` permits all uses by default.
-* `train-genai: "n"` overrides the default for generative training.
+* `all: "true"` permits all uses by default.
+* `train-genai: "false"` overrides the default for generative training.
 * `ai-use` and `search` are explicitly permitted to ensure downstream use is clearly allowed.

@@ -16,8 +16,8 @@ Each declaration expresses the rightsholder’s preferences regarding the use of
 
 Usage preferences are encoded using the IETF-compatible tokens:
 
-* `"y"` — use is explicitly allowed
-* `"n"` — use is explicitly disallowed (opt-out)
+* `"true"` — use is explicitly allowed
+* `"false"` — use is explicitly disallowed (opt-out)
 
 The schema defines required fields, permitted values, and optional metadata for lifecycle management such as updates and policy declarations.
 
@@ -46,27 +46,27 @@ The following schema suffices to validate conformance to this core data model.
     "all": {
       "type": "string",
       "description": "Preference for general automated processing.",
-      "enum": ["y", "n"]
+      "enum": ["true", "false"]
     },
     "train-ai": {
       "type": "string",
       "description": "Preference for AI training (non-generative).",
-      "enum": ["y", "n"]
+      "enum": ["true", "false"]
     },
     "train-genai": {
       "type": "string",
       "description": "Preference for generative AI training.",
-      "enum": ["y", "n"]
+      "enum": ["true", "false"]
     },
     "ai-use": {
       "type": "string",
       "description": "Preference for inference-time use of the asset as input to a trained model.",
-      "enum": ["y", "n"]
+      "enum": ["true", "false"]
     },
     "search": {
       "type": "string",
       "description": "Preference for inclusion in search applications.",
-      "enum": ["y", "n"]
+      "enum": ["true", "false"]
     },
     "reference": {
       "type": "string",
