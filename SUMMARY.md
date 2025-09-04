@@ -19,10 +19,8 @@
 ## Federated Registries
 
 * [Registries for Training Preferences](federated-registries/registries-for-training-preferences.md)
-
-***
-
-* [Federated Registries Explained](federated-registries-explained.md)
+* [Federated Registries Explained](federated-registries/federated-registries-explained.md)
+* [Federated Registries vs. Centralised Approaches](federated-registries/federated-registries-vs.-centralised-approaches.md)
 
 ## Technical Specification
 
