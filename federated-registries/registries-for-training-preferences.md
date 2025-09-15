@@ -1,26 +1,28 @@
 # Registries for Training Preferences
 
-## A Simple, Standards-Based Approach
+## A Standards-Based Model for Declaring Usage Restrictions
 
-Creators and rightsholders can make their AI training preferences heard using **a registry-based model for rights declarations**. At the heart of this model lies a simple yet powerful principle: **declare your intent once, and make it globally discoverable**.
+Creators and rightsholders who wish to express reservations about the use of their works in AI training can do so through a registry-based model for rights declarations. This model enables preferences to be expressed once and made discoverable to all relevant parties — including platforms, dataset curators, and AI model developers — in a machine-readable, standardised format.
 
-This is made possible through **federated content registries** – public, open, and verifiable directories that store and disseminate metadata about how digital works may be used, particularly in contexts like **text and data mining (TDM)** and **AI model training**.
+The registry model relies on **federated content registries**: publicly accessible, verifiable directories that record metadata about how digital works may or may not be used, particularly in contexts such as text and data mining (TDM) and the training of AI models.
 
-TDM·AI supports declarations built on a shared vocabulary and identifier system, including:
+The **TDM·AI** protocol supports declarations that follow a shared structure, including:
 
-* **ISCC codes** for uniquely identifying content
-* **Standardised opt-out expressions**
-* **Machine-readable formats** for easy integration and compliance
+* **ISCC codes** for uniquely identifying digital content, regardless of format or storage location
+* **Standardised opt-out categories** (e.g. for general TDM, AI training, generative AI training)
+* **Machine-readable data formats** (e.g. JSON-LD) for integration into platforms, crawlers, and compliance tools
 
-## Why This Matters
+## Why Registries Are Needed
 
-In today's digital ecosystem, works are collected, processed, and sometimes reused without direct contact between the creator and the user. Registries provide a missing link: a reliable way to declare rights and usage restrictions in a **standardised and resolvable format**.
+In the current digital environment, content is often collected and processed without direct interaction between the person using the content and the person who created it. Rights reservations or usage restrictions — if they exist at all — are typically buried in licensing terms, hard to resolve at scale, or platform-specific.
 
-This approach offers:
+Registries offer a structural solution. By linking declarations to the content itself (via ISCC identifiers) and publishing them in a publicly accessible and verifiable form, they allow preferences to be made visible and actionable across systems.
 
-* **Transparency**: Declarations are publicly visible and verifiable.
-* **Consistency**: A common format ensures uniform interpretation across platforms.
-* **Scalability**: Billions of records can be indexed and queried efficiently.
-* **Neutrality**: No dependency on any specific vendor, platform, or technology provider.
+This model provides:
 
-With a registry, the declaration lives outside any individual website or platform, increasing the **likelihood of recognition and enforcement**.
+* **Transparency** – Anyone can check whether a content asset is subject to a declared restriction
+* **Consistency** – A shared vocabulary and format ensure that declarations are interpreted uniformly
+* **Scalability** – The registry architecture supports high-volume indexing and look-up across billions of assets
+* **Independence** – Registries are technology-neutral and not tied to a specific vendor, platform, or jurisdiction
+
+Because declarations are made independently of the content’s location (e.g. not limited to a specific website or platform), they remain valid and resolvable even as content circulates across the internet or is reused in other contexts.
