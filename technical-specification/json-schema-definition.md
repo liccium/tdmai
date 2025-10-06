@@ -75,7 +75,7 @@ The following schema suffices to validate conformance to this core data model.
     "intent": {
       "type": "string",
       "description": "Type of declaration in its lifecycle.",
-      "enum": ["activate", "update", "supercede"],
+      "enum": ["activate", "update", "supersede"],
       "default": "activate"
     },
     "summary": {
