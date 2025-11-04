@@ -20,7 +20,7 @@ Registries use a distributed data structure known as a **Distributed Hash Table 
 * A **timestamp** with cryptographic signatures for authenticity and traceability
 * Cryptographic **signatures** that allow to verify the integrity of the full metadata record
 
-This system ensures that anyone – whether an online platform, AI developer, or rights organization – can verify the declared rights associated with a specific work using public registry data. Verification does not require access to full metadata or private storage systems. The declaring party’s identity is referenced through a Decentralized Identifier (DID) and supported by verifiable credentials, enabling trust without disclosing personal information.
+This system ensures that anyone – whether an online platform, AI developer, or rights organisation – can verify the declared rights associated with a specific work using public registry data. Verification does not require access to full metadata or private storage systems. The declaring party’s identity is referenced through a Decentralized Identifier (DID) and supported by qualified certificates or verifiable credentials, enabling trust without disclosing personal information.
 
 ## Operated by Many, Working as One
 

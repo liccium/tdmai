@@ -1,6 +1,6 @@
 # Federated Registries vs. Centralised Approaches
 
-As AI systems rely on public digital content for training, creators and rightsholders are looking for ways to express reservations about such uses. In response, a range of opt-out mechanisms have emerged – yet many raise concerns about their efficiency, accessibility, and robustness. Among these methods, centralised registries have been proposed to collect and store declarations, but such approaches have drawn criticism from rightsholders for imposing unnecessary burdens, overlooking sectoral diversity, and centralising control.
+As AI systems rely on public digital content for training, creators and rightsholders are looking for ways to express reservations about such uses. In response, a range of opt-out mechanisms have emerged – yet many raise concerns about their efficiency, accessibility, and robustness. Among these methods, centralised registries have been proposed to collect and store declarations, but such approaches have drawn criticism from creators and rightsholders for imposing costs and unnecessary burdens, overlooking sectoral diversity, and centralising control.
 
 The Liccium registry infrastructure offers an alternative: a federated model of expressing AI-related preferences. It avoids central, monopolistic and expensive control, supports a wide range of sector-specific metadata, workflows and license models, and ensures declarations are verifiable, scalable, and accessible – without placing new burdens on creators.
 
@@ -11,7 +11,6 @@ This page explains the difference between centralised and federated registry mod
 From creators and publishers, several recurring concerns have been identified:
 
 * Central control and governance risks: Who owns, controls and operates the registry?&#x20;
-* Intervention in the authority of Member States: Central registries are rarely compatible with EU administrative competencies.&#x20;
 * Lack of sectoral alignment: Different sectors (books, press, photos) have their own specific metadata, workflows, and service providers.
 * Duplicate effort: Centralised systems may require creators to manually register works that are already distributed via sectoral channels.
 * Copyright re-affirmation: Creators fear being forced to re-prove or re-claim rights they hold by default.

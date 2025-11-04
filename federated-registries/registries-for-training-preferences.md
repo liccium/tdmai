@@ -2,21 +2,21 @@
 
 ## A Standards-Based Model for Declaring Usage Restrictions
 
-Creators and rightsholders who wish to express reservations about the use of their works in AI training can do so through a registry-based model for rights declarations. This model enables preferences to be expressed once and made discoverable to all relevant parties — including platforms, dataset curators, and AI model developers — in a machine-readable, standardised format.
+Creators and rightsholders who wish to express preferences about the use of their works in AI training can do so through a registry-based model for rights declarations. This model enables preferences to be expressed once and made discoverable to all relevant parties — including platforms, dataset curators, and AI model developers — in a machine-readable, standardised format.
 
 The registry model relies on **federated content registries**: publicly accessible, verifiable directories that record metadata about how digital works may or may not be used, particularly in contexts such as text and data mining (TDM) and the training of AI models.
 
 The **TDM·AI** protocol supports declarations that follow a shared structure, including:
 
 * **ISCC codes** for uniquely identifying digital content, regardless of format or storage location
-* **Standardised opt-out categories** (e.g. for general TDM, AI training, generative AI training)
+* **Opt-out categories** (e.g. for general TDM, AI training, generative AI training)
 * **Machine-readable data formats** (e.g. JSON-LD) for integration into platforms, crawlers, and compliance tools
 
 ## Why Registries Are Needed
 
-In the current digital environment, content is often collected and processed without direct interaction between the person using the content and the person who created it. Rights reservations or usage restrictions — if they exist at all — are typically buried in licensing terms, hard to resolve at scale, or platform-specific.
+In the current digital environment, content is often collected and processed without direct interaction between the person using the content and the person who created it. Rights or usage permissions — if they exist at all — are typically buried in licensing terms, typically not machine-readable, hard to resolve at scale, or platform-specific.
 
-Registries offer a structural solution. By linking declarations to the content itself (via ISCC identifiers) and publishing them in a publicly accessible and verifiable form, they allow preferences to be made visible and actionable across systems.
+Registries offer a structural solution. By linking declarations to the content itself (via ISCC fingerprints) and publishing them in a publicly accessible and verifiable form, they allow preferences to be made visible and actionable across systems.
 
 This model provides:
 
