@@ -1,14 +1,22 @@
 ---
-description: '2025-07-21'
+description: '2025-11-04'
 ---
 
 # Usage Preferences Vocabulary
 
-This section defines the controlled vocabulary used to express usage permissions or reservations under the **TDM·AI Protocol**. The vocabulary enables machine-readable communication of preferences regarding the use of digital content for automated processing activities, including AI training and generative AI training.
+This section defines the controlled vocabulary used to express AI preferences under the **TDM·AI Protocol**. The vocabulary enables machine-readable communication of preferences regarding the use of digital content for automated processing activities, including AI training and generative AI training.
 
-The TDM·AI vocabulary is based on the structure and semantics defined in the [AI Preferences Vocabulary Internet-Draft](https://www.ietf.org/archive/id/draft-ietf-aipref-vocab-02.html) (linked content may be subject to updates), developed by the **IETF AI Preferences (aipref) Working Group**, and aligned with the [Attachment Mechanisms draft](https://www.ietf.org/archive/id/draft-ietf-aipref-attach-02.html) (linked content may be subject to updates).
+{% hint style="info" %}
+**Note on Alignment with IETF Drafts and Current Status**
 
-The protocol adopts the same category structure and updated machine-readable keys defined in the IETF drafts:
+This specification on the Usage Preferences Vocabulary for the TDM·AI Protocol currently aligns with version 02 of the draft‑ietf‑aipref‑vocab‑02 published by the Internet Engineering Task Force (IETF) as of July 21 2025. [datatracker.ietf.org+2datatracker.ietf.org+2](https://datatracker.ietf.org/doc/html/draft-ietf-aipref-vocab-02?utm_source=chatgpt.com)\
+\
+It is important to note that the IETF work on the “AI Preferences” vocabulary remains a **work in progress**. The draft is still under discussion, subject to change, and does not yet constitute a finalized standard. [datatracker.ietf.org+1](https://datatracker.ietf.org/doc/draft-ietf-aipref-vocab/02/?utm_source=chatgpt.com)\
+\
+We have chosen to use this particular draft version as a **reference point** to illustrate how a domain-based attachment mechanism (as proposed by the IETF) can be **translated** into a registry-based system — that is, how preference declarations can be persistently and verifiably associated with individual digital assets via a registry rather than relying solely on domain- or location-based signaling.\
+\
+As the IETF draft evolves, we expect to revisit and update our alignment accordingly. Until then, this documentation should be regarded as **preliminary guidance**, not a definitive implementation.
+{% endhint %}
 
 | Category Name                         | Key           | Description                                                       |
 | ------------------------------------- | ------------- | ----------------------------------------------------------------- |
@@ -55,15 +63,3 @@ The use of assets for AI Use is a proper subset of Automated Processing usage."
 The purpose of defining a distinct Search category is to allow preferences to be expressed about search applications, independent of other categories of use. A distinct Search category allows for preferences specific to search applications, even if the use of AI is involved in their implementation.
 
 The use of assets for Search is a proper subset of Automated Processing usage."
-
-## Extension: Registry-Based Declarations
-
-The IETF draft focuses on **location-based expression of preferences** (e.g., via robots.txt file or HTTP headers) it explicitly states.
-
-The TDM·AI Protocol addresses this limitation by supporting **registry-based declarations**, enabling verifiable and persistent preference signaling even when content is redistributed or metadata is stripped. In this model:
-
-* Declarations are linked to content-derived identifiers (ISCC fingerprints).
-* Preferences are published to federated registries.
-* Anyone with access to the content can generate the ISCC fingerprint and verify the declared usage policy.
-
-This architecture is fully compatible with the IETF vocabulary and enhances its practical applicability in federated, cross-platform environments.

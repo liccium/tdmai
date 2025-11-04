@@ -4,6 +4,18 @@ description: '2025-07-21'
 
 # Updates
 
+{% hint style="info" %}
+**Note on Alignment with IETF Drafts and Current Status**
+
+This specification on the Usage Preferences Vocabulary for the TDM·AI Protocol currently aligns with version 02 of the draft‑ietf‑aipref‑vocab‑02 published by the Internet Engineering Task Force (IETF) as of July 21 2025. [datatracker.ietf.org+2datatracker.ietf.org+2](https://datatracker.ietf.org/doc/html/draft-ietf-aipref-vocab-02?utm_source=chatgpt.com)\
+\
+It is important to note that the IETF work on the “AI Preferences” vocabulary remains a **work in progress**. The draft is still under discussion, subject to change, and does not yet constitute a finalized standard. [datatracker.ietf.org+1](https://datatracker.ietf.org/doc/draft-ietf-aipref-vocab/02/?utm_source=chatgpt.com)\
+\
+We have chosen to use this particular draft version as a **reference point** to illustrate how a domain-based attachment mechanism (as proposed by the IETF) can be **translated** into a registry-based system — that is, how preference declarations can be persistently and verifiably associated with individual digital assets via a registry rather than relying solely on domain- or location-based signaling.\
+\
+As the IETF draft evolves, we expect to revisit and update our alignment accordingly. Until then, this documentation should be regarded as **preliminary guidance**, not a definitive implementation.
+{% endhint %}
+
 ## Updating Usage Preferences
 
 A rightsholder who has previously declared a usage preference – whether to allow or disallow certain types of use – may later choose to **update** that declaration. An update is a machine-readable statement that supersedes a prior declaration for the same asset and explicitly communicates a change in permissions or restrictions.
@@ -79,3 +91,4 @@ A revocation declaration serves to:
 
 Revocations ensure transparency, help maintain up-to-date compliance, and support interoperability across evolving systems.
 {% endhint %}
+
