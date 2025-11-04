@@ -2,7 +2,7 @@
 
 ## Robots.txt
 
-Robots.txt has emerged as a practical solution to express rightsholders' preferences for web-published content, it is easy to implement, widely used and a recognised standard.&#x20;
+Robots.txt has emerged as a practical solution to express rightsholders' preferences for crawling web-published content, it is easy to implement, widely used and a recognised standard.&#x20;
 
 However, for stakeholders in many sectors, putting in place a rights reservation robots.txt is simply irrelevant. Location/domain-based approaches are not effective for the following reasons:
 
