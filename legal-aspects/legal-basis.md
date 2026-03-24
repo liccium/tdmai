@@ -63,4 +63,4 @@ HiQ Labs, Inc. v LinkedIn Corp. 31 F.4th 1180, 1187 n. 3 (9th Cir. 2022).
 
 See Bartz v. Anthropic PBC, No. 3:24-cv-00518, Dkt. 231 (N.D. Cal. May 6, 2024), where the court denied Anthropic’s motion to dismiss copyright claims stemming from the alleged ingestion of protected content into AI models, citing unresolved factual and legal questions concerning fair use.
 
-\
+<br>

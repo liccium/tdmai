@@ -22,12 +22,18 @@
 * [Federated Registries Explained](federated-registries/federated-registries-explained.md)
 * [Federated Registries vs. Centralised Approaches](federated-registries/federated-registries-vs.-centralised-approaches.md)
 
-## Technical Specification
+## TDMrep – Technical Specification
 
-* [Usage Preferences Vocabulary](technical-specification/usage-preferences-vocabulary.md)
-* [JSON Format for Usage Declarations](technical-specification/json-format-for-usage-declarations.md)
-* [Updates](technical-specification/updates.md)
-* [JSON Schema Definition](technical-specification/json-schema-definition.md)
+* [TDMrep Vocabulary](tdmrep-technical-specification/tdmrep-vocabulary.md)
+* [JSON Format for TDMrep Declarations](tdmrep-technical-specification/json-format-for-tdmrep-declarations.md)
+* [Semantic Model](tdmrep-technical-specification/semantic-model.md)
+
+## IETF – Technical Specification
+
+* [Usage Preferences Vocabulary](ietf-technical-specification/usage-preferences-vocabulary.md)
+* [JSON Format for Usage Declarations](ietf-technical-specification/json-format-for-usage-declarations.md)
+* [Updates](ietf-technical-specification/updates.md)
+* [JSON Schema Definition](ietf-technical-specification/json-schema-definition.md)
 
 ## Legal Aspects
 

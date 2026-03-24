@@ -11,8 +11,7 @@ sebastian (at) liccium.com
 
 **Sabine Richly**\
 sabine.richly (at) medialaw.digital\
-Homepage: [https://medialaw.digital](https://medialaw.digital)\
-
+Homepage: [https://medialaw.digital](https://medialaw.digital)<br>
 
 **Liccium B.V.** \
 Homepage [https://liccium.com](https://liccium.com)\

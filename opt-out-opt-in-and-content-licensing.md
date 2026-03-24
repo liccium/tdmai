@@ -35,4 +35,4 @@ A rightsholder may declare an opt-out using TDM·AI while still entering into li
 
 TDM·AI makes no assumptions about licensing and does not interfere with it. It provides the public, standardised layer for opt-out declarations — nothing more, nothing less.
 
-\
+<br>

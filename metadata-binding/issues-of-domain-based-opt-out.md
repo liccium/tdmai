@@ -30,4 +30,4 @@ Robots.txt requires control over the hosting domain, making it ineffective for c
 
 For instance, a photographer's image licensed to a news outlet may be shared on social media, where the original robots.txt settings are neither implemented nor enforceable – neither by the original rightsholder nor the licensee. Even when creators use robots.txt on their own websites, they cannot ensure downstream compliance. Licensing terms are often dictated by the licensee further along the distribution chain, and economic constraints may prevent the licensor from enforcing robots.txt settings effectively.
 
-\
+<br>

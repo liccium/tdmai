@@ -61,4 +61,4 @@ The notion of a “registry” need not imply central control or burden on creat
 By shifting from centralised control to distributed trust, Liccium offers a new foundation for rights reservation, creator agency, and cross-sector transparency in the AI age.
 
 \
-\
+<br>
